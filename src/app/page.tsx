@@ -19,9 +19,9 @@ export default function Home() {
                     alt="Arrow"
                     className="object-contain h-50 rotate-z-90 mb-8"
                 />
-                <Link href={"/scanner"} className="pt-28">
+                <Link href={"/scanner"} className="pt-28 pr-2">
                   <div
-                      className="flex items-center justify-center rounded-full aspect-square bg-white/80 shadow-2xl p-6 pr-2 hover:-translate-y-2 ease-out cursor-pointer transition-transform">
+                      className="flex items-center justify-center rounded-full aspect-square bg-white/80 shadow-2xl p-6 hover:-translate-y-2 ease-out cursor-pointer transition-transform">
                     <img
                         src={"/assets/barcode-scan.png"}
                         alt="Barcode Scan"

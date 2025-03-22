@@ -22,7 +22,7 @@ export default function Home() {
                 <Link href={"/scanner"} className="pt-28">
                   <div
                       className="flex items-center justify-center rounded-full aspect-square bg-white/80 shadow-2xl p-6 pr-2 hover:-translate-y-2 ease-out cursor-pointer transition-transform">
-                    <p className="text-xl font-semibold text-white">hello</p>
+                    <p className="text-xl font-semibold ">hello</p>
                     <img
                         src={"/assets/barcode-scan.png"}
                         alt="Barcode Scan"

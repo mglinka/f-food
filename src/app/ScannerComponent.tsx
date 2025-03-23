@@ -20,6 +20,9 @@ const ScannerComponent = () => {
       }
     }
   };
+  const handleReset = () => {
+    window.location.reload();
+  };
 
   return (
       <>
@@ -40,15 +43,16 @@ const ScannerComponent = () => {
           {scannedCode && <ScannedProduct scanned={scannedCode} />}
 
 
-          <Link href={"/scanner"} className="fixed bottom-4 right-4 z-10">
-            <div className="flex items-center justify-center rounded-full aspect-square bg-white/80 shadow-2xl p-6 hover:-translate-y-2 ease-out cursor-pointer transition-transform">
-              <img
-                  src={"/assets/barcode-scan.png"}
-                  alt="Barcode Scan"
-                  className="w-14 object-contain"
-              />
-            </div>
-          </Link>
+          <button
+              onClick={handleReset}
+              className="fixed bottom-4 right-4 z-10 flex items-center justify-center rounded-full aspect-square bg-white/80 shadow-2xl p-6 hover:-translate-y-2 ease-out cursor-pointer transition-transform"
+          >
+            <img
+                src={"/assets/barcode-scan.png"}
+                alt="Barcode Scan"
+                className="w-14 object-contain"
+            />
+          </button>
         </div>
       </>
   );

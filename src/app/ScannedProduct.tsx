@@ -18,8 +18,8 @@ const ScannedProduct: React.FC<ScannedProductProps> = ({ scanned }) => {
         <div className="space-y-4 md:col-span-4">
           <section>
             <div className="p-4 border-2 border-gray-100 rounded-lg shadow-md">
-              <h1 className="text-xl font-medium text-black mb-2">Nazwa produktu</h1>
-              <p className="font-light text-lg"><span>Mleko Polskie spożywcze pasteryzowane 3,2% MLEKOVITA</span></p>
+              <h1 className="text-2xl font-medium text-black mb-2">Nazwa produktu</h1>
+              <p className="font-light text-md"><span>Mleko Polskie spożywcze pasteryzowane 3,2% MLEKOVITA</span></p>
 
 
             </div>
@@ -27,35 +27,32 @@ const ScannedProduct: React.FC<ScannedProductProps> = ({ scanned }) => {
           <section>
             <div className="p-4 rounded-lg shadow-md border-2 border-gray-100">
 
-              <h1 className="text-xl font-medium text-black mb-2">Opis</h1>
-              <p className="font-light text-lg"><span>Mleko spożywcze pasteryzowane w wysokiej temperaturze. Zawartość tłuszczu 3,2%</span></p>
+              <h1 className="text-2xl font-medium text-black mb-2">Opis</h1>
+              <p className="font-light text-md"><span>Mleko spożywcze pasteryzowane w wysokiej temperaturze. Zawartość tłuszczu 3,2%</span></p>
             </div>
           </section>
 
           <section>
             <div className="p-4 border-2 border-gray-100 rounded-lg shadow-md overflow-hidden">
-              <h1 className="text-xl font-medium text-black mb-2">Indeksy</h1>
+              {/*<h1 className="text-2xl font-medium text-black mb-2">Indeksy</h1>*/}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center w-full">
 
                 <div className="flex items-center space-x-4 px-4 sm:px-6">
-                  <img src={"/right-arrow.png"} alt="Arrow" className="w-4 h-4 sm:w-6 sm:h-6 object-contain" />
-                  <span className="text-base sm:text-lg font-light">Indeks EN</span>
+                  <span className="text-base sm:text-xl font-light">Indeks EN</span>
                 </div>
                 <div>
                   <ENScoreIndicator highlightedIndex={3} />
                 </div>
 
                 <div className="flex items-center space-x-4 px-4 sm:px-6">
-                  <img src={"/right-arrow.png"} alt="Arrow" className="w-4 h-4 sm:w-6 sm:h-6 object-contain" />
-                  <span className="text-base sm:text-lg font-light">Indeks SUM</span>
+                  <span className="text-base sm:text-xl font-light">Indeks SUM</span>
                 </div>
                 <div>
                   <ScoreIndicator highlightedIndex={3} />
                 </div>
 
                 <div className="flex items-center space-x-4 px-4 sm:px-6">
-                  <img src={"/right-arrow.png"} alt="Arrow" className="w-4 h-4 sm:w-6 sm:h-6 object-contain" />
-                  <span className="text-base sm:text-lg font-light">Indeks FF</span>
+                  <span className="text-base sm:text-xl font-light">Indeks FF</span>
                 </div>
                 <div>
                   <ScoreIndicator highlightedIndex={3} />
@@ -66,31 +63,28 @@ const ScannedProduct: React.FC<ScannedProductProps> = ({ scanned }) => {
           </section>
 
           <section>
-            <div className="p-4 border-2 border-gray-100 rounded-lg shadow-md">
-              <h1 className="text-xl font-medium text-black mb-2">Parametry</h1>
-              <div className="font-light text-lg flex items-center space-x-4 pl-6">
-                <img
-                    src={"/right-arrow.png"}
-                    alt="Arrow"
-                    className="w-4 h-4 object-contain"
-                />
-                <span>Bez gutenu</span>
+            <div className="p-4 border-2 border-gray-100 rounded-lg shadow-md flex flex-col gap-4">
+              <div className="font-light text-xl flex items-center space-x-4 pl-6">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
+                  <path fillRule="evenodd" d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
+                </svg>
+
+                <span className={""}>Bez gutenu</span>
               </div>
-              <div className="font-light text-lg flex items-center space-x-4 pl-6">
-                <img
-                    src={"/right-arrow.png"}
-                    alt="Arrow"
-                    className="w-4 h-4 object-contain"
-                />
-                <span>Bez laktozy</span>
+              <div className="font-light text-xl flex items-center space-x-4 pl-6">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
+                  <path fillRule="evenodd" d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
+                </svg>
+
+                <span className={""}>Bez laktozy</span>
               </div>
             </div>
           </section>
 
           <section>
             <div className="p-4 border-2 border-gray-100 rounded-lg shadow-md">
-              <h1 className="text-xl text-black">Skład</h1>
-              <div className="font-light text-lg flex items-center space-x-4 pl-6">
+              <h1 className="text-2xl text-black">Skład</h1>
+              <div className="font-light text-md flex items-center space-x-4 pl-6">
                 <img
                     src={"/right-arrow.png"}
                     alt="Arrow"
@@ -98,7 +92,7 @@ const ScannedProduct: React.FC<ScannedProductProps> = ({ scanned }) => {
                 />
                 <span>Bez laktozy</span>
               </div>
-              <div className="font-light text-lg flex items-center space-x-4 pl-6">
+              <div className="font-light text-md flex items-center space-x-4 pl-6">
                 <img
                     src={"/right-arrow.png"}
                     alt="Arrow"
@@ -112,7 +106,7 @@ const ScannedProduct: React.FC<ScannedProductProps> = ({ scanned }) => {
         </div>
 
         <div className="p-4 border-2 border-gray-100 rounded-lg shadow-md md:col-span-4">
-          <h1 className="text-xl text-black">Tabela wartości odżywczych</h1>
+          <h1 className="text-2xl text-black">Tabela wartości odżywczych</h1>
 
           <div className="overflow-x-auto">
             <table className="min-w-full table-auto">

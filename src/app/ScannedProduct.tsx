@@ -158,50 +158,34 @@ const ScannedProduct: React.FC<ScannedProductProps> = ({ scanned }) => {
 
         </div>
 
-        <div className="p-4 border-2 border-gray-100 rounded-lg shadow-md md:col-span-4">
-          <h1 className="text-2xl text-black">Tabela wartości odżywczych</h1>
+        <div className="p-4 border-2 border-gray-200 rounded-lg shadow-md md:col-span-4 bg-white">
+          <h1 className="text-2xl font-semibold text-gray-900 mb-3">Tabela wartości odżywczych</h1>
 
           <div className="overflow-x-auto">
-            <table className="min-w-full table-auto">
+            <table className="min-w-full table-auto border-collapse rounded-lg overflow-hidden">
               <thead>
-              <tr className="bg-gray-200">
-                <th className="px-4 py-2 text-left"></th>
-                <th className="px-4 py-2 text-left">Wartość na 100g</th>
-                <th className="px-4 py-2 text-left"></th>
-                <th className="px-4 py-2 text-left">% RWS</th>
+              <tr className="text-gray-800 text-left">
+                <th className="px-6 py-3 text-sm font-md">Składnik</th>
+                <th className="px-6 py-3 text-sm font-md">Wartość na 100g</th>
+                <th className="px-6 py-3 text-sm font-md">Jednostka</th>
+                <th className="px-6 py-3 text-sm font-md">% RWS</th>
               </tr>
               </thead>
               <tbody>
-              <tr className="border-t">
-                <td className="px-4 py-2">Kalorie</td>
-                <td className="px-4 py-2">250</td>
-                <td className="px-4 py-2">kcal</td>
-                <td className="px-4 py-2"></td>
-              </tr>
-              <tr className="bg-gray-50 border-t">
-                <td className="px-4 py-2">Białko</td>
-                <td className="px-4 py-2">12</td>
-                <td className="px-4 py-2">g</td>
-                <td className="px-4 py-2"></td>
-              </tr>
-              <tr className="border-t">
-                <td className="px-4 py-2">Tłuszcze</td>
-                <td className="px-4 py-2">10</td>
-                <td className="px-4 py-2">g</td>
-                <td className="px-4 py-2"></td>
-              </tr>
-              <tr className="bg-gray-50 border-t">
-                <td className="px-4 py-2">Węglowodany</td>
-                <td className="px-4 py-2">30</td>
-                <td className="px-4 py-2">g</td>
-                <td className="px-4 py-2"></td>
-              </tr>
-              <tr className="border-t">
-                <td className="px-4 py-2">Błonnik</td>
-                <td className="px-4 py-2">5</td>
-                <td className="px-4 py-2">g</td>
-                <td className="px-4 py-2"></td>
-              </tr>
+              {[
+                { name: "Kalorie", value: "250", unit: "kcal", rws: "1" },
+                { name: "Białko", value: "12", unit: "g", rws: "5" },
+                { name: "Tłuszcze", value: "10", unit: "g", rws: "3" },
+                { name: "Węglowodany", value: "30", unit: "g", rws: "2" },
+                { name: "Błonnik", value: "5", unit: "g", rws: "2" }
+              ].map((item, index) => (
+                  <tr key={index} className={`border-t ${index % 2 === 0 ? "bg-white" : "bg-white"}`}>
+                    <td className="px-6 py-3 font-light text-gray-700">{item.name}</td>
+                    <td className="px-6 py-3 text-gray-700">{item.value}</td>
+                    <td className="px-6 py-3 text-gray-500">{item.unit}</td>
+                    <td className="px-6 py-3 text-gray-700">{item.rws}%</td>
+                  </tr>
+              ))}
               </tbody>
             </table>
           </div>

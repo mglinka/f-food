@@ -17,7 +17,7 @@ const ScannedProduct: React.FC<ScannedProductProps> = ({ scanned }) => {
       <div className="grid grid-cols-1 md:grid-cols-9 gap-6 p-4">
         <div className="space-y-4 md:col-span-4">
           <section>
-            <div className="p-4 bg-gray-100 rounded-lg shadow-md">
+            <div className="p-4 border-2 border-gray-100 rounded-lg shadow-md">
               <h1 className="text-xl font-medium text-black mb-2">Nazwa produktu</h1>
               <p className="font-light text-lg"><span>Mleko Polskie spożywcze pasteryzowane 3,2% MLEKOVITA</span></p>
 
@@ -25,7 +25,7 @@ const ScannedProduct: React.FC<ScannedProductProps> = ({ scanned }) => {
             </div>
           </section>
           <section>
-            <div className="p-4 bg-gray-100 rounded-lg shadow-md">
+            <div className="p-4 rounded-lg shadow-md border-2 border-gray-100">
 
               <h1 className="text-xl font-medium text-black mb-2">Opis</h1>
               <p className="font-light text-lg"><span>Mleko spożywcze pasteryzowane w wysokiej temperaturze. Zawartość tłuszczu 3,2%</span></p>
@@ -33,7 +33,7 @@ const ScannedProduct: React.FC<ScannedProductProps> = ({ scanned }) => {
           </section>
 
           <section>
-            <div className="p-4 bg-gray-100 rounded-lg shadow-md overflow-hidden">
+            <div className="p-4 border-2 border-gray-100 rounded-lg shadow-md overflow-hidden">
               <h1 className="text-xl font-medium text-black mb-2">Indeksy</h1>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center w-full">
 
@@ -66,7 +66,7 @@ const ScannedProduct: React.FC<ScannedProductProps> = ({ scanned }) => {
           </section>
 
           <section>
-            <div className="p-4 bg-gray-100 rounded-lg shadow-md">
+            <div className="p-4 border-2 border-gray-100 rounded-lg shadow-md">
               <h1 className="text-xl font-medium text-black mb-2">Parametry</h1>
               <div className="font-light text-lg flex items-center space-x-4 pl-6">
                 <img
@@ -88,7 +88,7 @@ const ScannedProduct: React.FC<ScannedProductProps> = ({ scanned }) => {
           </section>
 
           <section>
-            <div className="p-4 bg-gray-100 rounded-lg shadow-md">
+            <div className="p-4 border-2 border-gray-100 rounded-lg shadow-md">
               <h1 className="text-xl text-black">Skład</h1>
               <div className="font-light text-lg flex items-center space-x-4 pl-6">
                 <img
@@ -111,7 +111,7 @@ const ScannedProduct: React.FC<ScannedProductProps> = ({ scanned }) => {
           </section>
         </div>
 
-        <div className="p-4 bg-gray-100 rounded-lg shadow-md md:col-span-4">
+        <div className="p-4 border-2 border-gray-100 rounded-lg shadow-md md:col-span-4">
           <h1 className="text-xl text-black">Tabela wartości odżywczych</h1>
 
           <div className="overflow-x-auto">

@@ -27,8 +27,8 @@ const Message = ({ level }: any) => {
                     {lvl.icon}
                   </div>
                   <span
-                      className={`mt-6 sm:mt-6 md:mt-5 transition-all ${
-                          isActive ? "text-base sm:text-2xl md:text-2xl font-light text-gray-800" : "text-xs sm:text-sm md:text-base text-gray-400"
+                      className={`mt-6 sm:mt-6  transition-all ${
+                          isActive ? " md:mt-8 text-base sm:text-2xl md:text-2xl font-light text-gray-800" : "md:mt-2 text-xs sm:text-sm md:text-base text-gray-400 font-light"
                       }`}
                   >
                 {lvl.label}

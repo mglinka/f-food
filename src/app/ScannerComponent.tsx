@@ -2,12 +2,10 @@
 import BarcodeScanner from "react-qr-barcode-scanner";
 import { useState } from "react";
 import ScannedProduct from "@/app/ScannedProduct";
-import Link from "next/link";
 
 const ScannerComponent = () => {
   const [scannedCode, setScannedCode] = useState<string>("");
   const [scannerVisible, setScannerVisible] = useState<boolean>(true);
-  const [showGreeting, setShowGreeting] = useState<boolean>(true);
 
   const handleScan = (_err: any, result: any) => {
     if (result) {
@@ -16,7 +14,6 @@ const ScannerComponent = () => {
         setScannedCode(scannedData);
         console.log("Scanned data:", scannedData);
         setScannerVisible(false);
-        setShowGreeting(false);
       }
     }
   };

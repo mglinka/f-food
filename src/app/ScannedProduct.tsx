@@ -243,11 +243,11 @@ const ScannedProduct: React.FC<ScannedProductProps> = ({ scanned }) => {
             </div>
           </section>
 
-          <section className="mt-6">
+          <section className="mt-12 mb-4">
             <img
                 src="/assets/test.jpeg"
                 alt="test"
-                className="w-full h-auto object-cover rounded-lg shadow-md"
+                className="w-2/5 h-auto object-cover rounded-lg shadow-md mx-auto block"
             />
           </section>
         </div>

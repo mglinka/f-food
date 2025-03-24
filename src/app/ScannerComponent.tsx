@@ -5,7 +5,7 @@ import ScannedProduct from "@/app/ScannedProduct";
 import Link from "next/link";
 
 const ScannerComponent = () => {
-  const [scannedCode, setScannedCode] = useState<string>("");
+  const [scannedCode, setScannedCode] = useState<string>("111");
   const [scannerVisible, setScannerVisible] = useState<boolean>(true);
   const [showGreeting, setShowGreeting] = useState<boolean>(true);
 

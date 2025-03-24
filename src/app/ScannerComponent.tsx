@@ -5,7 +5,7 @@ import ScannedProduct from "@/app/ScannedProduct";
 import Link from "next/link";
 
 const ScannerComponent = () => {
-  const [scannedCode, setScannedCode] = useState<string>("111");
+  const [scannedCode, setScannedCode] = useState<string>("");
   const [scannerVisible, setScannerVisible] = useState<boolean>(true);
   const [showGreeting, setShowGreeting] = useState<boolean>(true);
 
@@ -26,19 +26,11 @@ const ScannerComponent = () => {
 
   return (
       <>
-        <div className="flex flex-col items-center md:items-start w-full ">
+        <div className="flex flex-col items-center md:items-start w-full">
           {scannerVisible && (
-              <BarcodeScanner width={300} height={600} onUpdate={handleScan} />
+              <BarcodeScanner onUpdate={handleScan} />
           )}
 
-          {showGreeting && (
-              <div className="w-full md:w-2/3">
-                <h1 className="text-2xl font-semibold">Witaj w aplikacji!</h1>
-                <p className="text-lg text-gray-700 mt-4">
-                  Zeskanuj kod EAN, aby zobaczyć szczegóły produktu.
-                </p>
-              </div>
-          )}
 
           {scannedCode && <ScannedProduct scanned={scannedCode} />}
 

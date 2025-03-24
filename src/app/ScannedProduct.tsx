@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import ENScoreIndicator from "@/components/indexes/ENScoreIndicator";
 import ScoreIndicator from "@/components/indexes/ScoreIndicator";
+import Tile from "@/components/Tile";
 
 interface ScannedProductProps {
   scanned: string;
@@ -30,18 +31,18 @@ const product: Product = {
     image: "",
   },
   compositionDTO: {
-    ingredientDTOS: [{ name: "mleko" }],
+    ingredientDTOS: [{name: "mleko"}],
     additionDTOS: [],
     flavourDTO: null,
   },
   nutritionalValueDTOS: [
     {
       nutritionalValueName: {
-        group: { groupName: "Tłuszcz" },
+        group: {groupName: "Tłuszcz"},
         name: "Total",
       },
       quantity: 2,
-      unit: { name: "g" },
+      unit: {name: "g"},
       nrv: 0,
     },
 
@@ -51,167 +52,160 @@ const product: Product = {
     name: "Nabiał",
   },
   ratingDTOS: [
-    { groupName: "Zastosowane procesy technologiczne", name: "pasteryzowanie" },
-    { groupName: "Parametry bez składników", name: "Bez laktozy" },
-    { groupName: "Alegreny (może zawierać)", name: "mleko i produkty pochodne" },
+    {groupName: "Zastosowane procesy technologiczne", name: "pasteryzowanie"},
+    {groupName: "Parametry bez składników", name: "Bez laktozy"},
+    {groupName: "Alegreny (może zawierać)", name: "mleko i produkty pochodne"},
   ],
   nutritionalIndexDTOS: [
-    { indexValue: 0, legend: null },
-    { indexValue: 1, legend: "Źródło wapnia" },
-    { indexValue: 2, legend: "Wysoka zawartość białka" },
+    {indexValue: 0, legend: null},
+    {indexValue: 1, legend: "Źródło wapnia"},
+    {indexValue: 2, legend: "Wysoka zawartość białka"},
   ],
   productIndexDTOS: [
-    { indexName: "S", indexValue: 3 },
-    { indexName: "P", indexValue: 2 },
-    { indexName: "M", indexValue: 1 },
-    { indexName: "T", indexValue: 3 },
+    {indexName: "S", indexValue: 3},
+    {indexName: "P", indexValue: 2},
+    {indexName: "M", indexValue: 1},
+    {indexName: "T", indexValue: 3},
   ],
 };
 
-const ScannedProduct: React.FC<ScannedProductProps> = ({ scanned }) => {
+const ScannedProduct: React.FC<ScannedProductProps> = ({scanned}) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-      <div className="grid grid-cols-1 md:grid-cols-9 gap-6 p-4">
+      <div className="grid grid-cols-1 md:grid-cols-9 gap-6  md:p-8 p-4">
         <div className="space-y-4 md:col-span-4">
-          <section>
-            <div className="p-4 border-2 border-gray-100 rounded-lg shadow-md">
-              <h1 className="text-2xl font-medium text-black mb-2">Nazwa produktu</h1>
-              <p className="font-light text-md"><span>Mleko Polskie spożywcze pasteryzowane 3,2% MLEKOVITA</span></p>
+          <Tile title="Nazwa produktu">
+            <p className="font-light text-md">
+              <span>Mleko Polskie spożywcze pasteryzowane 3,2% MLEKOVITA</span>
+            </p>
+          </Tile>
+          <Tile title="Opis">
+            <p className="font-light text-md">
+              Mleko spożywcze pasteryzowane w wysokiej temperaturze. Zawartość tłuszczu 3,2%
+            </p>
 
+            {isExpanded && (
+                <div className="mt-2 text-gray-700">
+                  <p className="flex items-center space-x-2">
+                    <span>Kraj</span>
+                    <img src={"/right-arrow.png"} alt="Arrow" className="w-4 h-4 object-contain"/>
+                    <span>qqq</span>
+                  </p>
+                  <p className="flex items-center space-x-2">
+                    <span>Opakowanie</span>
+                    <img src={"/right-arrow.png"} alt="Arrow" className="w-4 h-4 object-contain"/>
+                    <span>qqq</span>
+                  </p>
+                  <p className="flex items-center space-x-2">
+                    <span>Kod EAN</span>
+                    <img src={"/right-arrow.png"} alt="Arrow" className="w-4 h-4 object-contain"/>
+                    <span>qqqq</span>
+                  </p>
+                </div>
+            )}
 
-            </div>
-          </section>
-          <section>
-            <div className="p-4 rounded-lg shadow-md border-2 border-gray-100">
-              <h1 className="text-2xl font-medium text-black mb-2">Opis</h1>
-              <p className="font-light text-md">
-                Mleko spożywcze pasteryzowane w wysokiej temperaturze. Zawartość tłuszczu 3,2%
-              </p>
-
-              {isExpanded && (
-                  <div className="mt-2 text-gray-700">
-                    <p className="flex items-center space-x-2">
-                      <span>Kraj</span>
-                      <img src={"/right-arrow.png"} alt="Arrow" className="w-4 h-4 object-contain" />
-                      <span>qqq</span>
-                    </p>
-                    <p className="flex items-center space-x-2">
-                      <span>Opakowanie</span>
-                      <img src={"/right-arrow.png"} alt="Arrow" className="w-4 h-4 object-contain" />
-                      <span>qqq</span>
-                    </p>
-                    <p className="flex items-center space-x-2">
-                      <span>Kod EAN</span>
-                      <img src={"/right-arrow.png"} alt="Arrow" className="w-4 h-4 object-contain" />
-                      <span>qqqq</span>
-                    </p>
-                  </div>
-              )}
-
-              <button
-                  onClick={() => setIsExpanded(!isExpanded)}
-                  className="flex items-center justify-between w-full mt-4 text-white font-medium"
+            <button
+                onClick={() => setIsExpanded(!isExpanded)}
+                className="flex items-center justify-between w-full mt-4 text-white font-medium"
+            >
+              <span>{isExpanded ? "Zwiń" : "Czytaj więcej"}</span>
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  className={`transform transition-transform duration-300 ${
+                      isExpanded ? "rotate-180" : "rotate-0"
+                  }`}
               >
-                <span>{isExpanded ? "Zwiń" : "Czytaj więcej"}</span>
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    className={`transform transition-transform duration-300 ${
-                        isExpanded ? "rotate-180" : "rotate-0"
-                    }`}
-                >
-                  <path d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"/>
-                </svg>
-              </button>
-            </div>
-          </section>
+                <path
+                    d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"/>
+              </svg>
+            </button>
+          </Tile>
 
-          <section>
-            <div className="p-4 border-2 border-gray-100 rounded-lg shadow-md overflow-hidden">
-              {/*<h1 className="text-2xl font-medium text-black mb-2">Indeksy</h1>*/}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center w-full">
+          <Tile title="">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center w-full">
+              <div className="flex items-center space-x-4 px-4 sm:px-6">
+                <span className="text-base sm:text-xl font-light">Indeks EN</span>
+              </div>
+              <div>
+                <ENScoreIndicator highlightedIndex={1}/>
+              </div>
 
-                <div className="flex items-center space-x-4 px-4 sm:px-6">
-                  <span className="text-base sm:text-xl font-light">Indeks EN</span>
-                </div>
-                <div>
-                  <ENScoreIndicator highlightedIndex={1} />
-                </div>
+              <div className="flex items-center space-x-4 px-4 sm:px-6">
+                <span className="text-base sm:text-xl font-light">Indeks SUM</span>
+              </div>
+              <div>
+                <ScoreIndicator highlightedIndex={3}/>
+              </div>
 
-                <div className="flex items-center space-x-4 px-4 sm:px-6">
-                  <span className="text-base sm:text-xl font-light">Indeks SUM</span>
-                </div>
-                <div>
-                  <ScoreIndicator highlightedIndex={3} />
-                </div>
-
-                <div className="flex items-center space-x-4 px-4 sm:px-6">
-                  <span className="text-base sm:text-xl font-light">Indeks FF</span>
-                </div>
-                <div>
-                  <ScoreIndicator highlightedIndex={3} />
-                </div>
-
+              <div className="flex items-center space-x-4 px-4 sm:px-6">
+                <span className="text-base sm:text-xl font-light">Indeks FF</span>
+              </div>
+              <div>
+                <ScoreIndicator highlightedIndex={3}/>
               </div>
             </div>
-          </section>
-          <section>
-            <div className="p-4 border-2 border-gray-100 rounded-lg shadow-md flex flex-col gap-4">
+          </Tile>
+          <Tile title="">
               <ul className="list-disc space-y-2">
                 {Array.isArray(product.nutritionalIndexDTOS) ? product.nutritionalIndexDTOS.map((item, index) => (
                     item.legend ? (
                         <li key={index} className="font-light text-xl flex items-center space-x-4">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
-                            <path fillRule="evenodd" d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
-                          </svg>
+                          <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                 fill="currentColor" className="size-6">
+                              <path fillRule="evenodd"
+                                    d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+                                    clipRule="evenodd"/>
+                            </svg>
+                          </div>
                           <span>{item.legend}</span>
                         </li>
                     ) : null
                 )) : <p className="text-gray-500">Brak danych</p>}
               </ul>
-            </div>
-          </section>
+          </Tile>
 
-          <section>
-            <div className="p-4 border-2 border-gray-100 rounded-lg shadow-md flex flex-col gap-4">
-              <ul className="list-disc space-y-2">
-                {product.ratingDTOS.map((item, index) => (
-                    <li key={index} className="font-light text-xl flex items-center space-x-4">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
-                        <path fillRule="evenodd" d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
-                      </svg>
-                      <span>{item.groupName}: {item.name}</span>
-                    </li>
-                ))}
-              </ul>
-            </div>
-          </section>
+          <Tile title="">
+            <ul className="list-disc space-y-2">
+              {product.ratingDTOS.map((item, index) => (
+                  <li key={index} className="font-light text-xl flex items-center space-x-4">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                         className="size-6">
+                      <path
+                          fillRule="evenodd"
+                          d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+                          clipRule="evenodd"
+                      />
+                    </svg></div>
+                    <span>{item.groupName}: {item.name}</span>
+                  </li>
+              ))}
+            </ul>
+          </Tile>
 
 
-          <section>
-            <div className="p-4 border-2 border-gray-100 rounded-lg shadow-md">
-              <h1 className="text-2xl text-black mb-2">Skład</h1>
-              <ul className="list-disc pl-8 space-y-2">
-                {[
-                  ...product.compositionDTO.ingredientDTOS.map((item) => item.name),
-                  ...product.compositionDTO.additionDTOS.map((item) => item.name)
-                ].map((item: string, index: number) => (
-                    <li key={index} className="font-light text-xl flex items-center space-x-4">
-                      <img src={"/right-arrow.png"} alt="Arrow" className="w-4 h-4 object-contain" />
-                      <span>{item}</span>
-                    </li>
-                ))}
-              </ul>
-            </div>
-          </section>
+          <Tile title="Skład">
+            <ul className="list-disc pl-8 space-y-2">
+              {[
+                ...product.compositionDTO.ingredientDTOS.map((item) => item.name),
+                ...product.compositionDTO.additionDTOS.map((item) => item.name),
+              ].map((item: string, index: number) => (
+                  <li key={index} className="font-light text-xl flex items-center space-x-4">
+                    <img src={"/right-arrow.png"} alt="Arrow" className="w-4 h-4 object-contain"/>
+                    <span>{item}</span>
+                  </li>
+              ))}
+            </ul>
+          </Tile>
 
         </div>
 
-        <div className="p-4 border-2 border-gray-200 rounded-lg shadow-md md:col-span-4 bg-white">
-          <section>
-            <h1 className="text-2xl font-semibold text-gray-900 mb-3">Tabela wartości odżywczych</h1>
+        <div className=" space-y-4  md:col-span-5 ">
+          <Tile title="Tabela wartości
+              odżywczych">
 
             <div className="overflow-x-auto">
               <table className="min-w-full table-auto border-collapse rounded-lg overflow-hidden">
@@ -225,13 +219,14 @@ const ScannedProduct: React.FC<ScannedProductProps> = ({ scanned }) => {
                 </thead>
                 <tbody>
                 {[
-                  { name: "Kalorie", value: "250", unit: "kcal", rws: "1" },
-                  { name: "Białko", value: "12", unit: "g", rws: "5" },
-                  { name: "Tłuszcze", value: "10", unit: "g", rws: "3" },
-                  { name: "Węglowodany", value: "30", unit: "g", rws: "2" },
-                  { name: "Błonnik", value: "5", unit: "g", rws: "2" }
+                  {name: "Kalorie", value: "250", unit: "kcal", rws: "1"},
+                  {name: "Białko", value: "12", unit: "g", rws: "5"},
+                  {name: "Tłuszcze", value: "10", unit: "g", rws: "3"},
+                  {name: "Węglowodany", value: "30", unit: "g", rws: "2"},
+                  {name: "Błonnik", value: "5", unit: "g", rws: "2"}
                 ].map((item, index) => (
-                    <tr key={index} className={`border-t ${index % 2 === 0 ? "bg-white" : "bg-white"}`}>
+                    <tr key={index}
+                        className={`border-t ${index % 2 === 0 ? "bg-white" : "bg-white"}`}>
                       <td className="px-6 py-3 font-light text-gray-700">{item.name}</td>
                       <td className="px-6 py-3 text-gray-700">{item.value}</td>
                       <td className="px-6 py-3 text-gray-500">{item.unit}</td>
@@ -241,15 +236,16 @@ const ScannedProduct: React.FC<ScannedProductProps> = ({ scanned }) => {
                 </tbody>
               </table>
             </div>
-          </section>
 
-          <section className="mt-12 mb-4">
+          </Tile>
+
+          <Tile title="">
             <img
                 src="/assets/test.jpeg"
                 alt="test"
                 className="w-2/5 h-auto object-cover rounded-lg shadow-md mx-auto block"
             />
-          </section>
+          </Tile>
         </div>
       </div>
   );

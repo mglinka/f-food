@@ -76,7 +76,7 @@ const ScannedProduct: React.FC<ScannedProductProps> = ({scanned}) => {
   return (
       <>
         <div className="md:p-4 pr-4 pl-4 pb-4 w-full">
-          <Message level={3} />
+          <Message level={4} />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-9 gap-6 md:p-4 pr-4 pl-4 pb-4 mt-0">
           <div className="space-y-4 md:col-span-4">

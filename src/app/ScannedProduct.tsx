@@ -53,9 +53,9 @@ const product: Product = {
     name: "Nabiał",
   },
   ratingDTOS: [
-    {groupName: "Zastosowane procesy technologiczne", name: "pasteryzowanie"},
-    {groupName: "Parametry bez składników", name: "Bez laktozy"},
-    {groupName: "Alergeny (może zawierać)", name: "mleko i produkty pochodne"},
+    {groupName: "Zastosowane procesy technologiczne", name: ": pasteryzowanie"},
+    {groupName: "", name: "Bez laktozy"},
+    {groupName: "Alergeny (może zawierać)", name: ": mleko i produkty pochodne"},
   ],
   nutritionalIndexDTOS: [
     {indexValue: 0, legend: null},
@@ -184,7 +184,7 @@ const ScannedProduct: React.FC<ScannedProductProps> = ({scanned}) => {
                           />
                         </svg>
                       </div>
-                      <span>{item.groupName}: {item.name}</span>
+                      <span>{item.groupName} {item.name}</span>
                     </li>
                 ))}
               </ul>

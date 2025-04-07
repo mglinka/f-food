@@ -1,89 +1,54 @@
-interface Product {
-  id: string;
-  version: number;
-  country: string;
-  ean: string;
-  productDescription: string;
-  productName: string;
-  productQuantity: number;
-  compositionId: string;
-  labelId: string;
-  packageTypeId: string;
-  portionId: string;
-  producerId: string;
-  unitId: string;
-  labelDTO: LabelDTO;
-  compositionDTO: CompositionDTO;
-  nutritionalValueDTOS: NutritionalValueDTO[];
-  categoryDTO: CategoryDTO;
-  ratingDTOS: RatingDTO[];
-  nutritionalIndexDTOS: NutritionalIndexDTO[];
-  productIndexDTOS: ProductIndexDTO[];
+
+export interface Product {
+  UUID: string
+  EAN: string
+  productName: string
+  productDescription: string
+  productQuantity: number
+  unit: string
+  packageType: string
+  country: string
+  ingredients: string[]
+  additions: string[]
+  flavour: string[]
+  nutritionalIndexes: NutritionalIndex[]
+  productIndexes: ProductIndex[]
+  storage: string
+  durability: string
+  instructionsAfterOpening: string
+  preparation: string
+  allergens: string[]
+  portion: Portion
+  ratings: Rating[]
+  image: string
+  nutritionalValues: ProductNutritionalValue[]
 }
 
-interface LabelDTO {
-  storage: string;
-  durability: string;
-  instructionsAfterOpening: string;
-  preparation: string | null;
-  allergens: string;
-  image?: string; // Base64
+interface NutritionalIndex{
+  legend: string
+  indexValue: number
 }
 
-interface CompositionDTO {
-  ingredientDTOS: IngredientDTO[];
-  additionDTOS: AdditionDTO[];
-  flavourDTO: FlavourDTO | null;
+interface ProductIndex{
+  indexName: string
+  indexValue: number
 }
 
-interface IngredientDTO {
-  name: string;
+interface Portion{
+  unit: string
+  portionQuantity: number
 }
 
-interface AdditionDTO {
-  name: string;
+interface Rating{
+  groupName: string
+  name: string
 }
 
-interface FlavourDTO {
-  name: string;
-}
-
-interface NutritionalValueDTO {
-  nutritionalValueName: NutritionalValueNameDTO;
+interface ProductNutritionalValue{
+  nutritionalValueName: string
+  nutritionalValueGroup: string;
   quantity: number;
-  unit: UnitDTO;
-  nrv: number;
+  unit: string;
+
 }
 
-interface NutritionalValueNameDTO {
-  group: NutritionalValueGroupDTO;
-  name: string;
-}
-
-interface NutritionalValueGroupDTO {
-  groupName: string;
-}
-
-interface UnitDTO {
-  name: string;
-}
-
-interface CategoryDTO {
-  id: string;
-  name: string;
-}
-
-interface RatingDTO {
-  groupName: string;
-  name: string;
-}
-
-interface NutritionalIndexDTO {
-  indexValue: number;
-  legend: string | null;
-}
-
-interface ProductIndexDTO {
-  indexName: string;
-  indexValue: number;
-}

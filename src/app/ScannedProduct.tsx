@@ -530,7 +530,105 @@ const products: Product[] = [{
       }
     ],
     EAN: "5904646000408"
-  }];
+  },
+  {
+    UUID: "2eccba9e-5ae9-46f0-9760-58fd1cbf2b16",
+    productName: "Banan liofilizowany ELENA",
+    productDescription: "banan liofilizowany chipsy",
+    productQuantity: 30,
+    unit: "g",
+    packageType: "torebka",
+    country: "Polska",
+    ingredients: [
+      "banan liofilizowany 100%"
+    ],
+    additions: [],
+    flavour: [],
+    nutritionalIndexes: [
+      {
+        legend: "Wysoka zawartość błonnika pokarmowego",
+        indexValue: 2
+      }
+    ],
+    productIndexes: [
+      {
+        indexName: "F",
+        indexValue: 2
+      },
+      {
+        indexName: "T",
+        indexValue: 2
+      },
+      {
+        indexName: "S",
+        indexValue: 2
+      }
+    ],
+    storage: "w suchym miejscu w temp. pokojowej, szczelnie zamkniętym opakowaniu",
+    durability: "Brak informacji",
+    instructionsAfterOpening: "Brak informacji",
+    preparation: "Brak informacji",
+    allergens: [],
+    image: "https://kolagenum.com/343-large_default/Liofilizowany-banan-p180.jpg",
+    portion: {
+      unit: "g",
+      portionQuantity: 30
+    },
+    ratings: [
+      {
+        groupName: "Parametry bez składników",
+        name: "Bez glutenu"
+      },
+      {
+        groupName: "Zastosowane procesy technologiczne",
+        name: "liofilizowanie"
+      },
+      {
+        groupName: "Posiadane Certyfikaty",
+        name: "Bez glutenu, Znak Przekreślonego Kłosa (ESL)"
+      }
+    ],
+    nutritionalValues: [
+      {
+        nutritionalValueName: "Wartość Energetyczna",
+        nutritionalValueGroup: "Wartość Energetyczna",
+        quantity: 363.33,
+        unit: "kcal"
+      },
+      {
+        nutritionalValueName: "Total",
+        nutritionalValueGroup: "Tłuszcz",
+        quantity: 0.67,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Błonnik",
+        nutritionalValueGroup: "Błonnik",
+        quantity: 7.67,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Total",
+        nutritionalValueGroup: "Węglowodany",
+        quantity: 82.0,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Cukry",
+        nutritionalValueGroup: "Węglowodany",
+        quantity: 60.67,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Białko",
+        nutritionalValueGroup: "Białko",
+        quantity: 4.67,
+        unit: "g"
+      }
+    ],
+    EAN: "5907616713148"
+  }
+];
 
 const ScannedProduct: React.FC<ScannedProductProps> = ({scanned}) => {
   const [isExpanded, setIsExpanded] = useState(false);

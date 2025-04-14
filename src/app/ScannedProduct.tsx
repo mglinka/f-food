@@ -627,7 +627,6 @@ const products: Product[] = [{
       }
     ],
     EAN: "5907616713148"
-<<<<<<< HEAD
   },
   {
     UUID: "c1f53dd2-5ee5-4a00-9c75-5014ce1c822b",
@@ -2826,11 +2825,7 @@ const products: Product[] = [{
                       }
                     ],
                     EAN: "5900512989839"
-                  },
-                
-=======
-  }
->>>>>>> 418769c921dc40f2b8001f2876d96d59839399ee
+                  }
 ];
 
 const ScannedProduct: React.FC<ScannedProductProps> = ({scanned}) => {

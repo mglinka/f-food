@@ -530,12 +530,2310 @@ const products: Product[] = [{
       }
     ],
     EAN: "5904646000408"
-  }];
+  },
+  {
+    UUID: "2eccba9e-5ae9-46f0-9760-58fd1cbf2b16",
+    productName: "Banan liofilizowany ELENA",
+    productDescription: "banan liofilizowany chipsy",
+    productQuantity: 30,
+    unit: "g",
+    packageType: "torebka",
+    country: "Polska",
+    ingredients: [
+      "banan liofilizowany 100%"
+    ],
+    additions: [],
+    flavour: [],
+    nutritionalIndexes: [
+      {
+        legend: "Wysoka zawartość błonnika pokarmowego",
+        indexValue: 2
+      }
+    ],
+    productIndexes: [
+      {
+        indexName: "F",
+        indexValue: 2
+      },
+      {
+        indexName: "T",
+        indexValue: 2
+      },
+      {
+        indexName: "S",
+        indexValue: 2
+      }
+    ],
+    storage: "w suchym miejscu w temp. pokojowej, szczelnie zamkniętym opakowaniu",
+    durability: "Brak informacji",
+    instructionsAfterOpening: "Brak informacji",
+    preparation: "Brak informacji",
+    allergens: [],
+    image: "https://kolagenum.com/343-large_default/Liofilizowany-banan-p180.jpg",
+    portion: {
+      unit: "g",
+      portionQuantity: 30
+    },
+    ratings: [
+      {
+        groupName: "Parametry bez składników",
+        name: "Bez glutenu"
+      },
+      {
+        groupName: "Zastosowane procesy technologiczne",
+        name: "liofilizowanie"
+      },
+      {
+        groupName: "Posiadane Certyfikaty",
+        name: "Bez glutenu, Znak Przekreślonego Kłosa (ESL)"
+      }
+    ],
+    nutritionalValues: [
+      {
+        nutritionalValueName: "Wartość Energetyczna",
+        nutritionalValueGroup: "Wartość Energetyczna",
+        quantity: 363.33,
+        unit: "kcal"
+      },
+      {
+        nutritionalValueName: "Total",
+        nutritionalValueGroup: "Tłuszcz",
+        quantity: 0.67,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Błonnik",
+        nutritionalValueGroup: "Błonnik",
+        quantity: 7.67,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Total",
+        nutritionalValueGroup: "Węglowodany",
+        quantity: 82.0,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Cukry",
+        nutritionalValueGroup: "Węglowodany",
+        quantity: 60.67,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Białko",
+        nutritionalValueGroup: "Białko",
+        quantity: 4.67,
+        unit: "g"
+      }
+    ],
+    EAN: "5907616713148"
+  },
+  {
+    UUID: "c1f53dd2-5ee5-4a00-9c75-5014ce1c822b",
+    productName: "Jogurt wysokobiałkowy SUPER BODY ACTIVE naturalny MLEKOVITA",
+    productDescription: "naturalny jogurt",
+    productQuantity: 200,
+    unit: "g",
+    packageType: "kubek PP",
+    country: "Polska",
+    ingredients: [
+        "białka mleka",
+        "mleko",
+        "kultury bakterii jogurtowych"
+    ],
+    additions: [],
+    flavour: [],
+    nutritionalIndexes: [
+        {
+            legend: "Wysoka zawartość białka",
+            indexValue: 3
+        },
+        {
+            legend: "Źródło wapnia",
+            indexValue: 1
+        }
+    ],
+    productIndexes: [
+        {
+            indexName: "T",
+            indexValue: 4
+        },
+        {
+            indexName: "S",
+            indexValue: 4
+        },
+        {
+            indexName: "P",
+            indexValue: 3
+        },
+        {
+            indexName: "M",
+            indexValue: 1
+        }
+    ],
+    storage: "w warunkach chłodniczych",
+    durability: "40 dni",
+    instructionsAfterOpening: "Brak informacji",
+    preparation: "Brak informacji",
+    allergens: [
+        "mleko"
+    ],
+    image: "https://mlekovitka.pl/3673-large_default/super-body-active-jogurt-wysokobialkowy-naturalny-200-g.jpg",
+    portion: {
+        unit: "g",
+        portionQuantity: 100
+    },
+    ratings: [
+        {
+            groupName: "Zastosowane procesy technologiczne",
+            name: "pasteryzowanie"
+        },
+        {
+            groupName: "Alegreny (może zawierać)",
+            name: "mleko i produkty pochodne"
+        },
+        {
+            groupName: "Zastosowane procesy technologiczne",
+            name: "fermentacja"
+        }
+    ],
+    nutritionalValues: [
+        {
+            nutritionalValueName: "Wartość Energetyczna",
+            nutritionalValueGroup: "Wartość Energetyczna",
+            quantity: 69.0,
+            unit: "kcal"
+        },
+        {
+            nutritionalValueName: "Total",
+            nutritionalValueGroup: "Tłuszcz",
+            quantity: 3.0,
+            unit: "g"
+        },
+        {
+            nutritionalValueName: "Kwasy nasycone",
+            nutritionalValueGroup: "Tłuszcz",
+            quantity: 2.0,
+            unit: "g"
+        },
+        {
+            nutritionalValueName: "Total",
+            nutritionalValueGroup: "Węglowodany",
+            quantity: 5.0,
+            unit: "g"
+        },
+        {
+            nutritionalValueName: "Cukry",
+            nutritionalValueGroup: "Węglowodany",
+            quantity: 5.0,
+            unit: "g"
+        },
+        {
+            nutritionalValueName: "Białko",
+            nutritionalValueGroup: "Białko",
+            quantity: 5.5,
+            unit: "g"
+        },
+        {
+            nutritionalValueName: "Sól",
+            nutritionalValueGroup: "Sól",
+            quantity: 0.12,
+            unit: "g"
+        },
+        {
+            nutritionalValueName: "Wapń",
+            nutritionalValueGroup: "Minerały",
+            quantity: 150.0,
+            unit: "mg"
+        }
+    ],
+    EAN: "5900512901343"
+},
+{
+  UUID: "5376bd81-3acd-4966-b3fd-94f65f153d8b",
+  productName: "Koncentrat białek serwatkowych SUPER BODY ACTIVE WPC 80 bananowy MLEKOVITA",
+  productDescription: "Koncentrat białek serwatkowych instant bananowy",
+  productQuantity: 700,
+  unit: "g",
+  packageType: "torba folia",
+  country: "Polska",
+  ingredients: [
+      "lecytyna",
+      "koncentrat białek serwatkowych (z mleka krowiego)",
+      "sól",
+      "karoteny"
+  ],
+  additions: [],
+  flavour: [
+      "naturalny"
+  ],
+  nutritionalIndexes: [
+      {
+          legend: "Wysoka zawartość wapnia",
+          indexValue: 3
+      },
+      {
+          legend: "Wysoka zawartość białka",
+          indexValue: 3
+      }
+  ],
+  productIndexes: [
+      {
+          indexName: "T",
+          indexValue: 6
+      },
+      {
+          indexName: "S",
+          indexValue: 6
+      },
+      {
+          indexName: "P",
+          indexValue: 3
+      },
+      {
+          indexName: "M",
+          indexValue: 3
+      }
+  ],
+  storage: "Brak informacji",
+  durability: "24 miesiące",
+  instructionsAfterOpening: "Brak informacji",
+  preparation: "Brak informacji",
+  allergens: [
+      "mleko"
+  ],
+  image: "https://mlekovitka.pl/1959-large_default/super-body-active-wpc-80-koncentrat-bialek-serwatkowych-instant-bananowy-700-g.jpg",
+  portion: {
+      unit: "g",
+      portionQuantity: 100
+  },
+  ratings: [
+      {
+          groupName: "Zastosowane procesy technologiczne",
+          name: "pasteryzowanie"
+      },
+      {
+          groupName: "Zastosowane procesy technologiczne",
+          name: "suszenie"
+      },
+      {
+          groupName: "Alegreny (może zawierać)",
+          name: "mleko i produkty pochodne"
+      },
+      {
+          groupName: "Parametry bez składników",
+          name: "Bez glutenu"
+      },
+      {
+          groupName: "Parametry bez składników",
+          name: "Bez dodatku cukru"
+      }
+  ],
+  nutritionalValues: [
+      {
+          nutritionalValueName: "Sól",
+          nutritionalValueGroup: "Sól",
+          quantity: 0.2,
+          unit: "g"
+      },
+      {
+          nutritionalValueName: "Wartość Energetyczna",
+          nutritionalValueGroup: "Wartość Energetyczna",
+          quantity: 398.0,
+          unit: "kcal"
+      },
+      {
+          nutritionalValueName: "Total",
+          nutritionalValueGroup: "Tłuszcz",
+          quantity: 6.0,
+          unit: "g"
+      },
+      {
+          nutritionalValueName: "Kwasy nasycone",
+          nutritionalValueGroup: "Tłuszcz",
+          quantity: 3.9,
+          unit: "g"
+      },
+      {
+          nutritionalValueName: "Total",
+          nutritionalValueGroup: "Węglowodany",
+          quantity: 9.0,
+          unit: "g"
+      },
+      {
+          nutritionalValueName: "Cukry",
+          nutritionalValueGroup: "Węglowodany",
+          quantity: 9.0,
+          unit: "g"
+      },
+      {
+          nutritionalValueName: "Białko",
+          nutritionalValueGroup: "Białko",
+          quantity: 77.0,
+          unit: "g"
+      },
+      {
+          nutritionalValueName: "Histydyna",
+          nutritionalValueGroup: "Aminokwasy egzogenne",
+          quantity: 1.35,
+          unit: "mg"
+      },
+      {
+          nutritionalValueName: "Lizyna",
+          nutritionalValueGroup: "Aminokwasy egzogenne",
+          quantity: 7.4,
+          unit: "mg"
+      },
+      {
+          nutritionalValueName: "Tryptofan",
+          nutritionalValueGroup: "Aminokwasy egzogenne",
+          quantity: 1.3,
+          unit: "mg"
+      },
+      {
+          nutritionalValueName: "Metionina",
+          nutritionalValueGroup: "Aminokwasy egzogenne",
+          quantity: 1.68,
+          unit: "mg"
+      },
+      {
+          nutritionalValueName: "Treonina",
+          nutritionalValueGroup: "Aminokwasy egzogenne",
+          quantity: 5.58,
+          unit: "mg"
+      },
+      {
+          nutritionalValueName: "Izoleucyna ",
+          nutritionalValueGroup: "Aminokwasy egzogenne",
+          quantity: 4.65,
+          unit: "mg"
+      },
+      {
+          nutritionalValueName: "Fenyloalanina ",
+          nutritionalValueGroup: "Aminokwasy egzogenne",
+          quantity: 2.32,
+          unit: "mg"
+      },
+      {
+          nutritionalValueName: "Leucyna ",
+          nutritionalValueGroup: "Aminokwasy egzogenne",
+          quantity: 8.3,
+          unit: "mg"
+      },
+      {
+          nutritionalValueName: "Arginina",
+          nutritionalValueGroup: "Aminokwasy egzogenne",
+          quantity: 1.81,
+          unit: "mg"
+      },
+      {
+          nutritionalValueName: "Walina",
+          nutritionalValueGroup: "Aminokwasy egzogenne",
+          quantity: 4.29,
+          unit: "mg"
+      },
+      {
+          nutritionalValueName: "Wapń",
+          nutritionalValueGroup: "Minerały",
+          quantity: 410.0,
+          unit: "mg"
+      }
+  ],
+  EAN: "5900512984803"
+},
+{
+      UUID: "fc869f01-87a4-4767-b0d9-978e4522077f",
+      productName: "Koncentrat białek serwatkowych SUPER BODY ACTIVE WPC 80 czekoladowy MLEKOVITA",
+      productDescription: "koncentrat białek serwatkowych instant czekoladowy",
+      productQuantity: 700,
+      unit: "g",
+      packageType: "torba folia",
+      country: "Polska",
+      ingredients: [
+          "lecytyna",
+          "kakao",
+          "koncentrat białek serwatkowych (z mleka krowiego)",
+          "sól"
+      ],
+      additions: [],
+      flavour: [
+          "naturalny"
+      ],
+      nutritionalIndexes: [
+          {
+              legend: "wysoka zawartość wapnia",
+              indexValue: 6
+          },
+          {
+              legend: "wysoka zawartość białka",
+              indexValue: 6
+          }
+      ],
+      productIndexes: [
+          {
+              indexName: "P",
+              indexValue: 3
+          },
+          {
+              indexName: "T",
+              indexValue: 8
+          },
+          {
+              indexName: "S",
+              indexValue: 8
+          },
+          {
+              indexName: "M",
+              indexValue: 3
+          },
+          {
+              indexName: "V",
+              indexValue: 2
+          }
+      ],
+      storage: "Brak informacji",
+      durability: "24 miesiące",
+      instructionsAfterOpening: "Brak informacji",
+      preparation: "Brak informacji",
+      allergens: [
+          "mleko"
+      ],
+      image: "https://mlekovitka.pl/1953-large_default/super-body-active-wpc-80-koncentrat-bialek-serwatkowych-instant-czekoladowy-700-g.jpg",
+      portion: {
+          unit: "g",
+          portionQuantity: 100
+      },
+      ratings: [
+          {
+              groupName: "Zastosowane procesy technologiczne",
+              name: "pasteryzowanie"
+          },
+          {
+              groupName: "Parametry bez składników",
+              name: "wysoka zawartość białka"
+          },
+          {
+              groupName: "Zastosowane procesy technologiczne",
+              name: "suszenie"
+          },
+          {
+              groupName: "Alegreny (może zawierać)",
+              name: "mleko i produkty pochodne"
+          },
+          {
+              groupName: "Parametry bez składników",
+              name: "wysoka zawartość wapnia"
+          },
+          {
+              groupName: "Parametry bez składników",
+              name: "Bez dodatku cukru"
+          }
+      ],
+      nutritionalValues: [
+          {
+              nutritionalValueName: "Total",
+              nutritionalValueGroup: "Tłuszcz",
+              quantity: 7.0,
+              unit: "g"
+          },
+          {
+              nutritionalValueName: "Kwasy nasycone",
+              nutritionalValueGroup: "Tłuszcz",
+              quantity: 4.6,
+              unit: "g"
+          },
+          {
+              nutritionalValueName: "Sól",
+              nutritionalValueGroup: "Sól",
+              quantity: 0.5,
+              unit: "g"
+          },
+          {
+              nutritionalValueName: "Cukry",
+              nutritionalValueGroup: "Węglowodany",
+              quantity: 11.0,
+              unit: "g"
+          },
+          {
+              nutritionalValueName: "Fenyloalanina ",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 2.32,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Histydyna",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 1.35,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Lizyna",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 7.4,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Izoleucyna ",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 4.65,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Metionina",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 1.68,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Treonina",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 5.58,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Walina",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 4.29,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Total",
+              nutritionalValueGroup: "Węglowodany",
+              quantity: 11.0,
+              unit: "g"
+          },
+          {
+              nutritionalValueName: "Arginina",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 1.81,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Wapń",
+              nutritionalValueGroup: "Minerały",
+              quantity: 410.0,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Białko",
+              nutritionalValueGroup: "Białko",
+              quantity: 76.0,
+              unit: "g"
+          },
+          {
+              nutritionalValueName: "Wartość Energetyczna",
+              nutritionalValueGroup: "Wartość Energetyczna",
+              quantity: 411.0,
+              unit: "kcal"
+          },
+          {
+              nutritionalValueName: "Leucyna ",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 8.3,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Tryptofan",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 1.3,
+              unit: "mg"
+          }
+      ],
+      EAN: "5900512984773"
+  },
+  {
+        UUID: "fddd91e1-6b8e-4792-95f1-dad1269a06de",
+        productName: "Koncentrat białek serwatkowych SUPER BODY ACTIVE WPC 80 truskawkowy MLEKOVITA",
+        productDescription: "koncentrat białek serwatkowych instant truskawkowy",
+        productQuantity: 700,
+        unit: "g",
+        packageType: "torba folia",
+        country: "Polska",
+        ingredients: [
+            "",
+            "lecytyna",
+            "koncentrat białek serwatkowych (z mleka krowiego)",
+            "sól"
+        ],
+        additions: [],
+        flavour: [
+            "naturalny"
+        ],
+        nutritionalIndexes: [
+            {
+                legend: "Wysoka zawartość wapnia",
+                indexValue: 3
+            },
+            {
+                legend: "Wysoka zawartość białka",
+                indexValue: 3
+            }
+        ],
+        productIndexes: [
+            {
+                indexName: "T",
+                indexValue: 6
+            },
+            {
+                indexName: "S",
+                indexValue: 6
+            },
+            {
+                indexName: "P",
+                indexValue: 3
+            },
+            {
+                indexName: "M",
+                indexValue: 3
+            }
+        ],
+        storage: "Brak informacji",
+        durability: "24 miesiące",
+        instructionsAfterOpening: "Brak informacji",
+        preparation: "Brak informacji",
+        allergens: [
+            "mleko"
+        ],
+        image: "https://mlekovita.com.pl/uploads/products/657/9849wpc-80-truskawkowy-700-g-jpg.jpg",
+        portion: {
+            unit: "g",
+            portionQuantity: 100
+        },
+        ratings: [
+            {
+                groupName: "Zastosowane procesy technologiczne",
+                name: "pasteryzowanie"
+            },
+            {
+                groupName: "Zastosowane procesy technologiczne",
+                name: "suszenie"
+            },
+            {
+                groupName: "Alegreny (może zawierać)",
+                name: "mleko i produkty pochodne"
+            },
+            {
+                groupName: "Parametry bez składników",
+                name: "Bez glutenu"
+            },
+            {
+                groupName: "Parametry bez składników",
+                name: "Bez dodatku cukru"
+            }
+        ],
+        nutritionalValues: [
+            {
+                nutritionalValueName: "Wapń",
+                nutritionalValueGroup: "Minerały",
+                quantity: 410.0,
+                unit: "mg"
+            },
+            {
+                nutritionalValueName: "Wartość Energetyczna",
+                nutritionalValueGroup: "Wartość Energetyczna",
+                quantity: 398.0,
+                unit: "kcal"
+            },
+            {
+                nutritionalValueName: "Total",
+                nutritionalValueGroup: "Tłuszcz",
+                quantity: 6.0,
+                unit: "g"
+            },
+            {
+                nutritionalValueName: "Kwasy nasycone",
+                nutritionalValueGroup: "Tłuszcz",
+                quantity: 3.9,
+                unit: "g"
+            },
+            {
+                nutritionalValueName: "Total",
+                nutritionalValueGroup: "Węglowodany",
+                quantity: 9.0,
+                unit: "g"
+            },
+            {
+                nutritionalValueName: "Cukry",
+                nutritionalValueGroup: "Węglowodany",
+                quantity: 9.0,
+                unit: "g"
+            },
+            {
+                nutritionalValueName: "Białko",
+                nutritionalValueGroup: "Białko",
+                quantity: 77.0,
+                unit: "g"
+            },
+            {
+                nutritionalValueName: "Sól",
+                nutritionalValueGroup: "Sól",
+                quantity: 0.2,
+                unit: "g"
+            },
+            {
+                nutritionalValueName: "Histydyna",
+                nutritionalValueGroup: "Aminokwasy egzogenne",
+                quantity: 1.35,
+                unit: "mg"
+            },
+            {
+                nutritionalValueName: "Lizyna",
+                nutritionalValueGroup: "Aminokwasy egzogenne",
+                quantity: 7.4,
+                unit: "mg"
+            },
+            {
+                nutritionalValueName: "Treonina",
+                nutritionalValueGroup: "Aminokwasy egzogenne",
+                quantity: 5.58,
+                unit: "mg"
+            },
+            {
+                nutritionalValueName: "Izoleucyna ",
+                nutritionalValueGroup: "Aminokwasy egzogenne",
+                quantity: 4.65,
+                unit: "mg"
+            },
+            {
+                nutritionalValueName: "Walina",
+                nutritionalValueGroup: "Aminokwasy egzogenne",
+                quantity: 4.29,
+                unit: "mg"
+            },
+            {
+                nutritionalValueName: "Arginina",
+                nutritionalValueGroup: "Aminokwasy egzogenne",
+                quantity: 1.81,
+                unit: "mg"
+            },
+            {
+                nutritionalValueName: "Tryptofan",
+                nutritionalValueGroup: "Aminokwasy egzogenne",
+                quantity: 1.3,
+                unit: "mg"
+            },
+            {
+                nutritionalValueName: "Leucyna ",
+                nutritionalValueGroup: "Aminokwasy egzogenne",
+                quantity: 8.3,
+                unit: "mg"
+            },
+            {
+                nutritionalValueName: "Fenyloalanina ",
+                nutritionalValueGroup: "Aminokwasy egzogenne",
+                quantity: 2.32,
+                unit: "mg"
+            },
+            {
+                nutritionalValueName: "Metionina",
+                nutritionalValueGroup: "Aminokwasy egzogenne",
+                quantity: 1.68,
+                unit: "mg"
+            }
+        ],
+        EAN: "5900512984780"
+    },
+    {
+      UUID: "f57f3858-ce4f-4adb-afb5-cc744d547cbf",
+      productName: "Koncentrat białek serwatkowych SUPER BODY ACTIVE WPC 80 waniliowy MLEKOVITA WPC 80",
+      productDescription: "koncentrat białek serwatkowych instant waniliowy",
+      productQuantity: 700,
+      unit: "g",
+      packageType: "torba folia",
+      country: "Polska",
+      ingredients: [
+          "lecytyna",
+          "koncentrat białek serwatkowych (z mleka krowiego)",
+          "sól",
+          "karoteny"
+      ],
+      additions: [],
+      flavour: [
+          "naturalny"
+      ],
+      nutritionalIndexes: [
+          {
+              legend: "Wysoka zawartość wapnia",
+              indexValue: 3
+          },
+          {
+              legend: "Wysoka zawartość białka",
+              indexValue: 3
+          }
+      ],
+      productIndexes: [
+          {
+              indexName: "T",
+              indexValue: 6
+          },
+          {
+              indexName: "S",
+              indexValue: 6
+          },
+          {
+              indexName: "P",
+              indexValue: 3
+          },
+          {
+              indexName: "M",
+              indexValue: 3
+          }
+      ],
+      storage: "Brak informacji",
+      durability: "24 miesiące",
+      instructionsAfterOpening: "Brak informacji",
+      preparation: "Brak informacji",
+      allergens: [
+          "mleko"
+      ],
+      image: "https://mlekovitka.pl/1957-large_default/super-body-active-wpc-80-koncentrat-bialek-serwatkowych-instant-waniliowy-700-g.jpg",
+      portion: {
+          unit: "g",
+          portionQuantity: 100
+      },
+      ratings: [
+          {
+              groupName: "Zastosowane procesy technologiczne",
+              name: "pasteryzowanie"
+          },
+          {
+              groupName: "Zastosowane procesy technologiczne",
+              name: "suszenie"
+          },
+          {
+              groupName: "Alegreny (może zawierać)",
+              name: "mleko i produkty pochodne"
+          },
+          {
+              groupName: "Parametry bez składników",
+              name: "Bez glutenu"
+          },
+          {
+              groupName: "Parametry bez składników",
+              name: "Bez dodatku cukru"
+          }
+      ],
+      nutritionalValues: [
+          {
+              nutritionalValueName: "Wartość Energetyczna",
+              nutritionalValueGroup: "Wartość Energetyczna",
+              quantity: 398.0,
+              unit: "kcal"
+          },
+          {
+              nutritionalValueName: "Total",
+              nutritionalValueGroup: "Tłuszcz",
+              quantity: 6.0,
+              unit: "g"
+          },
+          {
+              nutritionalValueName: "Kwasy nasycone",
+              nutritionalValueGroup: "Tłuszcz",
+              quantity: 3.9,
+              unit: "g"
+          },
+          {
+              nutritionalValueName: "Total",
+              nutritionalValueGroup: "Węglowodany",
+              quantity: 9.0,
+              unit: "g"
+          },
+          {
+              nutritionalValueName: "Cukry",
+              nutritionalValueGroup: "Węglowodany",
+              quantity: 9.0,
+              unit: "g"
+          },
+          {
+              nutritionalValueName: "Sól",
+              nutritionalValueGroup: "Sól",
+              quantity: 0.2,
+              unit: "g"
+          },
+          {
+              nutritionalValueName: "Wapń",
+              nutritionalValueGroup: "Minerały",
+              quantity: 410.0,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Fenyloalanina ",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 2.32,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Arginina",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 1.81,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Leucyna ",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 8.3,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Lizyna",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 7.4,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Metionina",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 1.68,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Treonina",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 5.58,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Tryptofan",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 1.3,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Walina",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 4.29,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Histydyna",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 1.35,
+              unit: "mg"
+          },
+          {
+              nutritionalValueName: "Białko",
+              nutritionalValueGroup: "Białko",
+              quantity: 77.0,
+              unit: "g"
+          },
+          {
+              nutritionalValueName: "Izoleucyna ",
+              nutritionalValueGroup: "Aminokwasy egzogenne",
+              quantity: 4.65,
+              unit: "mg"
+          }
+      ],
+      EAN: "5900512984797"
+  },
+  {
+    UUID: "edccb21b-282d-4878-accf-2fe254be2c76",
+    productName: "Koncentrat białek serwatkowych WPC 80 SUPER BODY ACTIVE MLEKOVITA",
+    productDescription: "Koncentrat białek serwatkowych WPC 80 natural",
+    productQuantity: 700,
+    unit: "g",
+    packageType: "torba folia",
+    country: "Polska",
+    ingredients: [
+      "koncentrat białek serwatkowych (z mleka krowiego)"
+    ],
+    additions: [],
+    flavour: [
+      "naturalny masła"
+    ],
+    nutritionalIndexes: [
+      {
+        legend: "Wysoka zawartość wapnia",
+        indexValue: 3
+      },
+      {
+        legend: "Wysoka zawartość białka",
+        indexValue: 3
+      }
+    ],
+    productIndexes: [
+      {
+        indexName: "P",
+        indexValue: 1
+      },
+      {
+        indexName: "T",
+        indexValue: 6
+      },
+      {
+        indexName: "S",
+        indexValue: 6
+      },
+      {
+        indexName: "M",
+        indexValue: 3
+      },
+      {
+        indexName: "V",
+        indexValue: 2
+      }
+    ],
+    storage: "Brak informacji",
+    durability: "24 miesiące",
+    instructionsAfterOpening: "Brak informacji",
+    preparation: "Brak informacji",
+    allergens: [
+      "mleko"
+    ],
+    image: "https://mlekovita.com.pl/media/cache/product_view/uploads/products/236/8714torebka-wpc-nowa-pakowaczka-w06-k-0000-jpg.jpg",
+    portion: {
+      unit: "g",
+      portionQuantity: 100
+    },
+    ratings: [
+      {
+        groupName: "Zastosowane procesy technologiczne",
+        name: "pasteryzowanie"
+      },
+      {
+        groupName: "Bez dodatków do żywności",
+        name: "bez środków słodzących"
+      },
+      {
+        groupName: "Zastosowane procesy technologiczne",
+        name: "suszenie"
+      },
+      {
+        groupName: "Alegreny (może zawierać)",
+        name: "mleko i produkty pochodne"
+      },
+      {
+        groupName: "Bez dodatków do żywności",
+        name: "bez dodatków do żywności"
+      },
+      {
+        groupName: "Parametry bez składników",
+        name: "Bez dodatku cukru"
+      }
+    ],
+    nutritionalValues: [
+      {
+        nutritionalValueName: "Cukry",
+        nutritionalValueGroup: "Węglowodany",
+        quantity: 8.0,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Total",
+        nutritionalValueGroup: "Tłuszcz",
+        quantity: 5.0,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Total",
+        nutritionalValueGroup: "Węglowodany",
+        quantity: 8.0,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Sól",
+        nutritionalValueGroup: "Sól",
+        quantity: 0.3,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Wapń",
+        nutritionalValueGroup: "Minerały",
+        quantity: 430.0,
+        unit: "mg"
+      },
+      {
+        nutritionalValueName: "Białko",
+        nutritionalValueGroup: "Białko",
+        quantity: 80.0,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Fenyloalanina ",
+        nutritionalValueGroup: "Aminokwasy egzogenne",
+        quantity: 2.5,
+        unit: "mg"
+      },
+      {
+        nutritionalValueName: "Lizyna",
+        nutritionalValueGroup: "Aminokwasy egzogenne",
+        quantity: 7.5,
+        unit: "mg"
+      },
+      {
+        nutritionalValueName: "Metionina",
+        nutritionalValueGroup: "Aminokwasy egzogenne",
+        quantity: 1.8,
+        unit: "mg"
+      },
+      {
+        nutritionalValueName: "Treonina",
+        nutritionalValueGroup: "Aminokwasy egzogenne",
+        quantity: 5.6,
+        unit: "mg"
+      },
+      {
+        nutritionalValueName: "Walina",
+        nutritionalValueGroup: "Aminokwasy egzogenne",
+        quantity: 4.5,
+        unit: "mg"
+      },
+      {
+        nutritionalValueName: "Histydyna",
+        nutritionalValueGroup: "Aminokwasy egzogenne",
+        quantity: 1.4,
+        unit: "mg"
+      },
+      {
+        nutritionalValueName: "Leucyna ",
+        nutritionalValueGroup: "Aminokwasy egzogenne",
+        quantity: 8.65,
+        unit: "mg"
+      },
+      {
+        nutritionalValueName: "Wartość Energetyczna",
+        nutritionalValueGroup: "Wartość Energetyczna",
+        quantity: 397.0,
+        unit: "kcal"
+      },
+      {
+        nutritionalValueName: "Kwasy nasycone",
+        nutritionalValueGroup: "Tłuszcz",
+        quantity: 3.1,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Arginina",
+        nutritionalValueGroup: "Aminokwasy egzogenne",
+        quantity: 1.8,
+        unit: "mg"
+      },
+      {
+        nutritionalValueName: "Izoleucyna ",
+        nutritionalValueGroup: "Aminokwasy egzogenne",
+        quantity: 4.85,
+        unit: "mg"
+      },
+      {
+        nutritionalValueName: "Tryptofan",
+        nutritionalValueGroup: "Aminokwasy egzogenne",
+        quantity: 1.1,
+        unit: "mg"
+      }
+    ],
+    EAN: "5900512983387"
+  },
+  {
+    UUID: "1caf90bd-6191-4c0e-9202-2e3bd6c2d108",
+    productName: "Maślanka w proszku SUPER BODY ACTIVE naturalna MLEKOVITA",
+    productDescription: "maślanka w proszku",
+    productQuantity: 400,
+    unit: "g",
+    packageType: "torba folia",
+    country: "Polska",
+    ingredients: [
+      "maślanka"
+    ],
+    additions: [],
+    flavour: [],
+    nutritionalIndexes: [
+      {
+        legend: "Wysoka zawartość wapnia",
+        indexValue: 3
+      },
+      {
+        legend: "Wysoka zawartość fosforu",
+        indexValue: 3
+      },
+      {
+        legend: "Wysoka zawartość białka",
+        indexValue: 3
+      },
+      {
+        legend: "Wysoka zawartość potasu",
+        indexValue: 3
+      }
+    ],
+    productIndexes: [
+      {
+        indexName: "P",
+        indexValue: 3
+      },
+      {
+        indexName: "T",
+        indexValue: 12
+      },
+      {
+        indexName: "S",
+        indexValue: 12
+      },
+      {
+        indexName: "M",
+        indexValue: 9
+      }
+    ],
+    storage: "w warunkach chłodniczych",
+    durability: "12 miesięcy",
+    instructionsAfterOpening: "Brak informacji",
+    preparation: "Brak informacji",
+    allergens: [
+      "mleko"
+    ],
+    image: "https://mlekovita.com.pl/uploads/products/837/8180sba-torebka-maslanka-w-proszku-nowa-pakowaczka-w02-0000-kopia-jpg.jpg",
+    portion: {
+      unit: "g",
+      portionQuantity: 100
+    },
+    ratings: [
+      {
+        groupName: "Zastosowane procesy technologiczne",
+        name: "pasteryzowanie"
+      },
+      {
+        groupName: "Zastosowane procesy technologiczne",
+        name: "produkt naturalny"
+      },
+      {
+        groupName: "Zastosowane procesy technologiczne",
+        name: "suszenie"
+      },
+      {
+        groupName: "Alegreny (może zawierać)",
+        name: "mleko i produkty pochodne"
+      },
+      {
+        groupName: "Parametry bez składników",
+        name: "Bez glutenu"
+      },
+      {
+        groupName: "Parametry bez składników",
+        name: "Bez dodatku cukru"
+      }
+    ],
+    nutritionalValues: [
+      {
+        nutritionalValueName: "Total",
+        nutritionalValueGroup: "Tłuszcz",
+        quantity: 7.0,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Kwasy nasycone",
+        nutritionalValueGroup: "Tłuszcz",
+        quantity: 4.5,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Total",
+        nutritionalValueGroup: "Węglowodany",
+        quantity: 50.0,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Białko",
+        nutritionalValueGroup: "Białko",
+        quantity: 32.0,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Sól",
+        nutritionalValueGroup: "Sól",
+        quantity: 1.1,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Wapń",
+        nutritionalValueGroup: "Minerały",
+        quantity: 1050.0,
+        unit: "mg"
+      },
+      {
+        nutritionalValueName: "Potas",
+        nutritionalValueGroup: "Minerały",
+        quantity: 1522.0,
+        unit: "mg"
+      },
+      {
+        nutritionalValueName: "Wartość Energetyczna",
+        nutritionalValueGroup: "Wartość Energetyczna",
+        quantity: 391.0,
+        unit: "kcal"
+      },
+      {
+        nutritionalValueName: "Cukry",
+        nutritionalValueGroup: "Węglowodany",
+        quantity: 50.0,
+        unit: "g"
+      },
+      {
+        nutritionalValueName: "Fosfor",
+        nutritionalValueGroup: "Minerały",
+        quantity: 892.0,
+        unit: "mg"
+      }
+    ],
+    EAN: "5900512901220"
+  },
+  {
+      UUID: "b573055d-ff27-460b-9243-f8a7648b0a41",
+      productName: "Mleko w proszku SUPER BODY ACTIVE odtłuszczone bez laktozy MLEKOVITA",
+      productDescription: "mleko w proszku odtłuszczone bez laktozy",
+      productQuantity: 500,
+      unit: "g",
+      packageType: "torba folia",
+      country: "Polska",
+      ingredients: [
+        "mleko"
+      ],
+      additions: [],
+      flavour: [],
+      nutritionalIndexes: [
+        {
+          legend: "Wysoka zawartość wapnia",
+          indexValue: 3
+        },
+        {
+          legend: "Wysoka zawartość fosforu",
+          indexValue: 3
+        },
+        {
+          legend: "Wysoka zawartość białka",
+          indexValue: 3
+        },
+        {
+          legend: "Wysoka zawartość potasu",
+          indexValue: 3
+        }
+      ],
+      productIndexes: [
+        {
+          indexName: "P",
+          indexValue: 3
+        },
+        {
+          indexName: "T",
+          indexValue: 12
+        },
+        {
+          indexName: "S",
+          indexValue: 12
+        },
+        {
+          indexName: "M",
+          indexValue: 9
+        }
+      ],
+      storage: "w suchym i chłodnym miejscu",
+      durability: "12 miesięcy",
+      instructionsAfterOpening: "Brak informacji",
+      preparation: "Brak informacji",
+      allergens: [
+        "mleko"
+      ],
+      image: "https://mlekovita.com.pl/uploads/images/CfWD6ntJ9cXNEKuPBazA/8123-sba-torebka-mleko-w-proszku-bez-laktozy-nowa-pakowaczka-w02-0030-kopia.jpg",
+      portion: {
+        unit: "g",
+        portionQuantity: 100
+      },
+      ratings: [
+        {
+          groupName: "Parametry bez składników",
+          name: "Bez laktozy"
+        },
+        {
+          groupName: "Zastosowane procesy technologiczne",
+          name: "suszenie"
+        },
+        {
+          groupName: "Alegreny (może zawierać)",
+          name: "mleko i produkty pochodne"
+        },
+        {
+          groupName: "Parametry bez składników",
+          name: "Bez glutenu"
+        },
+        {
+          groupName: "Parametry bez składników",
+          name: "Bez dodatku cukru"
+        }
+      ],
+      nutritionalValues: [
+        {
+          nutritionalValueName: "Total",
+          nutritionalValueGroup: "Tłuszcz",
+          quantity: 1.1,
+          unit: "g"
+        },
+        {
+          nutritionalValueName: "Kwasy nasycone",
+          nutritionalValueGroup: "Tłuszcz",
+          quantity: 0.7,
+          unit: "g"
+        },
+        {
+          nutritionalValueName: "Total",
+          nutritionalValueGroup: "Węglowodany",
+          quantity: 51.0,
+          unit: "g"
+        },
+        {
+          nutritionalValueName: "Cukry",
+          nutritionalValueGroup: "Węglowodany",
+          quantity: 51.0,
+          unit: "g"
+        },
+        {
+          nutritionalValueName: "Sól",
+          nutritionalValueGroup: "Sól",
+          quantity: 1.1,
+          unit: "g"
+        },
+        {
+          nutritionalValueName: "Fosfor",
+          nutritionalValueGroup: "Minerały",
+          quantity: 700.0,
+          unit: "mg"
+        },
+        {
+          nutritionalValueName: "Wapń",
+          nutritionalValueGroup: "Minerały",
+          quantity: 1000.0,
+          unit: "mg"
+        },
+        {
+          nutritionalValueName: "Potas",
+          nutritionalValueGroup: "Minerały",
+          quantity: 1400.0,
+          unit: "mg"
+        },
+        {
+          nutritionalValueName: "Wartość Energetyczna",
+          nutritionalValueGroup: "Wartość Energetyczna",
+          quantity: 350.0,
+          unit: "kcal"
+        },
+        {
+          nutritionalValueName: "Białko",
+          nutritionalValueGroup: "Białko",
+          quantity: 34.0,
+          unit: "g"
+        }
+      ],
+      EAN: "5900512983271"
+    },
+    {
+        UUID: "43ea98aa-dc52-44ee-a70b-652ef45fbb20",
+        productName: "Mleko Wydojone 2% bez laktozy MLEKOVITA",
+        productDescription: "mleko 2% bez laktozy",
+        productQuantity: 1,
+        unit: "l",
+        packageType: "butelka HDPE ",
+        country: "Polska",
+        ingredients: [
+          "mleko "
+        ],
+        additions: [],
+        flavour: [],
+        nutritionalIndexes: [
+          {
+            legend: "Źródło wapnia",
+            indexValue: 1
+          },
+          {
+            legend: "Wysoka zawartość białka",
+            indexValue: 2
+          }
+        ],
+        productIndexes: [
+          {
+            indexName: "S",
+            indexValue: 3
+          },
+          {
+            indexName: "P",
+            indexValue: 2
+          },
+          {
+            indexName: "M",
+            indexValue: 1
+          },
+          {
+            indexName: "T",
+            indexValue: 3
+          }
+        ],
+        storage: "od +2C do +8C",
+        durability: "30 dni",
+        instructionsAfterOpening: "przechowywać w temp.: +2C do +8C nie dłużej niż 48 godzin",
+        preparation: "Brak informacji",
+        allergens: [
+          "mleko"
+        ],
+        image: "https://mlekovita.com.pl/uploads/products/586/2404mleko-wypasione-butelka-1l-2022-04-20-2-w02-0000-copy-jpg.jpg",
+        portion: {
+          unit: "ml",
+          portionQuantity: 100
+        },
+        ratings: [
+          {
+            groupName: "Zastosowane procesy technologiczne",
+            name: "pasteryzowanie"
+          },
+          {
+            groupName: "Parametry bez składników",
+            name: "Bez laktozy"
+          },
+          {
+            groupName: "Alegreny (może zawierać)",
+            name: "mleko i produkty pochodne"
+          }
+        ],
+        nutritionalValues: [
+          {
+            nutritionalValueName: "Total",
+            nutritionalValueGroup: "Tłuszcz",
+            quantity: 2.0,
+            unit: "g"
+          },
+          {
+            nutritionalValueName: "Kwasy nasycone",
+            nutritionalValueGroup: "Tłuszcz",
+            quantity: 1.3,
+            unit: "g"
+          },
+          {
+            nutritionalValueName: "Total",
+            nutritionalValueGroup: "Węglowodany",
+            quantity: 4.7,
+            unit: "g"
+          },
+          {
+            nutritionalValueName: "Wapń",
+            nutritionalValueGroup: "Minerały",
+            quantity: 105.0,
+            unit: "mg"
+          },
+          {
+            nutritionalValueName: "Sól",
+            nutritionalValueGroup: "Sól",
+            quantity: 0.1,
+            unit: "g"
+          },
+          {
+            nutritionalValueName: "Cukry",
+            nutritionalValueGroup: "Węglowodany",
+            quantity: 4.7,
+            unit: "g"
+          },
+          {
+            nutritionalValueName: "Wartość Energetyczna",
+            nutritionalValueGroup: "Wartość Energetyczna",
+            quantity: 50.0,
+            unit: "kcal"
+          },
+          {
+            nutritionalValueName: "Białko",
+            nutritionalValueGroup: "Białko",
+            quantity: 3.2,
+            unit: "g"
+          }
+        ],
+        EAN: "5900512983639"
+      },
+      {
+          UUID: "efe91d1c-0b37-4b7f-ab43-d676ade7fc20",
+          productName: "Mleko Wydojone 3,2% bez laktozy MLEKOVITA",
+          productDescription: "mleko bez laktozy",
+          productQuantity: 1,
+          unit: "l",
+          packageType: "butelka HDPE ",
+          country: "Polska",
+          ingredients: [
+            "mleko"
+          ],
+          additions: [],
+          flavour: [],
+          nutritionalIndexes: [
+            {
+              legend: "Źródło wapnia",
+              indexValue: 1
+            },
+            {
+              legend: "Wysoka zawartość białka",
+              indexValue: 2
+            }
+          ],
+          productIndexes: [
+            {
+              indexName: "S",
+              indexValue: 3
+            },
+            {
+              indexName: "P",
+              indexValue: 2
+            },
+            {
+              indexName: "M",
+              indexValue: 1
+            },
+            {
+              indexName: "T",
+              indexValue: 3
+            }
+          ],
+          storage: "od +2C do +8C",
+          durability: "30 dni\r\n",
+          instructionsAfterOpening: "przechowywać w temp.: +2C do +8C nie dłużej niż 48 godzin",
+          preparation: "Brak informacji",
+          allergens: [
+            "mleko"
+          ],
+          image: "https://mlekovita.com.pl/media/cache/product_view/uploads/products_specials/593/x6256mleko-bez-laktozy-wydojone-3-2-png.png.pagespeed.ic.zWIFBL5u7D.png",
+          portion: {
+            unit: "ml",
+            portionQuantity: 100
+          },
+          ratings: [
+            {
+              groupName: "Zastosowane procesy technologiczne",
+              name: "pasteryzowanie"
+            },
+            {
+              groupName: "Parametry bez składników",
+              name: "Bez laktozy"
+            },
+            {
+              groupName: "Alegreny (może zawierać)",
+              name: "mleko i produkty pochodne"
+            }
+          ],
+          nutritionalValues: [
+            {
+              nutritionalValueName: "Wartość Energetyczna",
+              nutritionalValueGroup: "Wartość Energetyczna",
+              quantity: 60.0,
+              unit: "kcal"
+            },
+            {
+              nutritionalValueName: "Total",
+              nutritionalValueGroup: "Tłuszcz",
+              quantity: 3.2,
+              unit: "g"
+            },
+            {
+              nutritionalValueName: "Kwasy nasycone",
+              nutritionalValueGroup: "Tłuszcz",
+              quantity: 2.0,
+              unit: "g"
+            },
+            {
+              nutritionalValueName: "Białko",
+              nutritionalValueGroup: "Białko",
+              quantity: 3.2,
+              unit: "g"
+            },
+            {
+              nutritionalValueName: "Sól",
+              nutritionalValueGroup: "Sól",
+              quantity: 0.1,
+              unit: "g"
+            },
+            {
+              nutritionalValueName: "Total",
+              nutritionalValueGroup: "Węglowodany",
+              quantity: 4.7,
+              unit: "g"
+            },
+            {
+              nutritionalValueName: "Wapń",
+              nutritionalValueGroup: "Minerały",
+              quantity: 105.0,
+              unit: "mg"
+            },
+            {
+              nutritionalValueName: "Cukry",
+              nutritionalValueGroup: "Węglowodany",
+              quantity: 4.7,
+              unit: "g"
+            }
+          ],
+          EAN: "5900512983646"
+        },
+        {
+            UUID: "d065569f-99b9-4499-83d8-0de120566fa8",
+            productName: "Mleko wysokobiałkowe SUPER BODY ACTIVE UHT 0,5% MLEKOVITA",
+            productDescription: "mleko wysokobiałkowe UHT 0,5% klasyczne",
+            productQuantity: 1,
+            unit: "l",
+            packageType: "Tetra Pak",
+            country: "Polska",
+            ingredients: [
+              "mleko",
+              "białka mleka (z mleka krowiego)"
+            ],
+            additions: [],
+            flavour: [],
+            nutritionalIndexes: [
+              {
+                legend: "Wysoka zawartość wapnia",
+                indexValue: 2
+              },
+              {
+                legend: "Wysoka zawartość białka",
+                indexValue: 3
+              }
+            ],
+            productIndexes: [
+              {
+                indexName: "T",
+                indexValue: 5
+              },
+              {
+                indexName: "S",
+                indexValue: 5
+              },
+              {
+                indexName: "P",
+                indexValue: 3
+              },
+              {
+                indexName: "M",
+                indexValue: 2
+              }
+            ],
+            storage: "Przechowywać w temperaturze od +1 st. C do +25 st. C",
+            durability: "7 miesięcy",
+            instructionsAfterOpening: "przechowywać w warunkach chłodniczych nie dłużej niż 48 godzin.",
+            preparation: "Brak informacji",
+            allergens: [
+              "mleko"
+            ],
+            image: "https://mlekovita.com.pl/media/cache/product_view/uploads/products/840/1933sba-mleko-wysokobialkowe-sq-2023-12-05-w01-klasyczne-0050-kopia-jpg.jpg",
+            portion: {
+              unit: "ml",
+              portionQuantity: 100
+            },
+            ratings: [
+              {
+                groupName: "Zastosowane procesy technologiczne",
+                name: "pasteryzowanie"
+              },
+              {
+                groupName: "Alegreny (może zawierać)",
+                name: "mleko i produkty pochodne"
+              },
+              {
+                groupName: "Parametry bez składników",
+                name: "Niska zawartość tłuszczu"
+              }
+            ],
+            nutritionalValues: [
+              {
+                nutritionalValueName: "Total",
+                nutritionalValueGroup: "Tłuszcz",
+                quantity: 0.5,
+                unit: "g"
+              },
+              {
+                nutritionalValueName: "Kwasy nasycone",
+                nutritionalValueGroup: "Tłuszcz",
+                quantity: 0.3,
+                unit: "g"
+              },
+              {
+                nutritionalValueName: "Total",
+                nutritionalValueGroup: "Węglowodany",
+                quantity: 4.7,
+                unit: "g"
+              },
+              {
+                nutritionalValueName: "Cukry",
+                nutritionalValueGroup: "Węglowodany",
+                quantity: 4.7,
+                unit: "g"
+              },
+              {
+                nutritionalValueName: "Sól",
+                nutritionalValueGroup: "Sól",
+                quantity: 0.1,
+                unit: "g"
+              },
+              {
+                nutritionalValueName: "Wapń",
+                nutritionalValueGroup: "Minerały",
+                quantity: 150.0,
+                unit: "mg"
+              },
+              {
+                nutritionalValueName: "Wartość Energetyczna",
+                nutritionalValueGroup: "Wartość Energetyczna",
+                quantity: 41.0,
+                unit: "kcal"
+              },
+              {
+                nutritionalValueName: "Białko",
+                nutritionalValueGroup: "Białko",
+                quantity: 4.5,
+                unit: "g"
+              }
+            ],
+            EAN: "5900512901329"
+          },
+          {
+              UUID: "578db518-581b-4801-8613-4d09b12ed366",
+              productName: "serek homogenizowany SUPER BODY ACTIVE bez laktozy MLEKOVITA",
+              productDescription: "wysokobiałkowy serek homogenizowany naturalny bez laktozy",
+              productQuantity: 150,
+              unit: "g",
+              packageType: "kubek PP",
+              country: "Polska",
+              ingredients: [
+                "mleko pasteryzowane",
+                "kultury bakterii fermentacji mlekowej"
+              ],
+              additions: [],
+              flavour: [],
+              nutritionalIndexes: [
+                {
+                  legend: "Wysoka zawartość białka",
+                  indexValue: 3
+                }
+              ],
+              productIndexes: [
+                {
+                  indexName: "S",
+                  indexValue: 3
+                },
+                {
+                  indexName: "P",
+                  indexValue: 3
+                },
+                {
+                  indexName: "T",
+                  indexValue: 3
+                }
+              ],
+              storage: "w warunkach chlodniczych od +2 st. C do +10 st. C",
+              durability: "40 dni",
+              instructionsAfterOpening: "Brak informacji",
+              preparation: "Brak informacji",
+              allergens: [
+                "mleko"
+              ],
+              image: "https://mlekovita.com.pl/uploads/products/848/4814sba-wysokobialkowy-serek-homogenizowany-150g-naturalny-w01-0030-kopia-jpg.jpg",
+              portion: {
+                unit: "g",
+                portionQuantity: 100
+              },
+              ratings: [
+                {
+                  groupName: "Zastosowane procesy technologiczne",
+                  name: "pasteryzowanie"
+                },
+                {
+                  groupName: "Parametry bez składników",
+                  name: "Bez laktozy"
+                },
+                {
+                  groupName: "Alegreny (może zawierać)",
+                  name: "mleko i produkty pochodne"
+                },
+                {
+                  groupName: "Zastosowane procesy technologiczne",
+                  name: "fermentacja"
+                }
+              ],
+              nutritionalValues: [
+                {
+                  nutritionalValueName: "Wartość Energetyczna",
+                  nutritionalValueGroup: "Wartość Energetyczna",
+                  quantity: 121.0,
+                  unit: "kcal"
+                },
+                {
+                  nutritionalValueName: "Total",
+                  nutritionalValueGroup: "Tłuszcz",
+                  quantity: 7.0,
+                  unit: "g"
+                },
+                {
+                  nutritionalValueName: "Kwasy nasycone",
+                  nutritionalValueGroup: "Tłuszcz",
+                  quantity: 4.1,
+                  unit: "g"
+                },
+                {
+                  nutritionalValueName: "Total",
+                  nutritionalValueGroup: "Węglowodany",
+                  quantity: 3.5,
+                  unit: "g"
+                },
+                {
+                  nutritionalValueName: "Cukry",
+                  nutritionalValueGroup: "Węglowodany",
+                  quantity: 3.5,
+                  unit: "g"
+                },
+                {
+                  nutritionalValueName: "Białko",
+                  nutritionalValueGroup: "Białko",
+                  quantity: 11.0,
+                  unit: "g"
+                },
+                {
+                  nutritionalValueName: "Sól",
+                  nutritionalValueGroup: "Sól",
+                  quantity: 0.15,
+                  unit: "g"
+                }
+              ],
+              EAN: "5900512901350"
+            },
+            {
+                UUID: "f69fdc56-fb0a-479f-8b56-f3419c2b1d5d",
+                productName: "Serek wiejski SUPER BODY ACTIVE wysokobiałkowy MLEKOVITA",
+                productDescription: "świeży ziarnisty twarożek",
+                productQuantity: 200,
+                unit: "g",
+                packageType: "kubek PP",
+                country: "Polska",
+                ingredients: [
+                  "ziarno twarogowe",
+                  "śmietanka pasteryzowana",
+                  "sól"
+                ],
+                additions: [],
+                flavour: [],
+                nutritionalIndexes: [
+                  {
+                    legend: "Wysoka zawartość białka",
+                    indexValue: 3
+                  }
+                ],
+                productIndexes: [
+                  {
+                    indexName: "S",
+                    indexValue: 3
+                  },
+                  {
+                    indexName: "P",
+                    indexValue: 3
+                  },
+                  {
+                    indexName: "T",
+                    indexValue: 3
+                  }
+                ],
+                storage: "w warunkach chłodniczych od +2 st. C do +8 st. C",
+                durability: "18 dni",
+                instructionsAfterOpening: "Brak informacji",
+                preparation: "wymieszać przed spożyciem",
+                allergens: [
+                  "mleko"
+                ],
+                image: "https://mlekovita.com.pl/media/cache/product_view/uploads/products/787/7113serek-wiejski-ziarnisty-sba-200-g-2022-10-31-w06-0020-copy-jpg.jpg",
+                portion: {
+                  unit: "g",
+                  portionQuantity: 100
+                },
+                ratings: [
+                  {
+                    groupName: "Zastosowane procesy technologiczne",
+                    name: "pasteryzowanie"
+                  },
+                  {
+                    groupName: "Alegreny (może zawierać)",
+                    name: "mleko i produkty pochodne"
+                  },
+                  {
+                    groupName: "Zastosowane procesy technologiczne",
+                    name: "fermentacja"
+                  }
+                ],
+                nutritionalValues: [
+                  {
+                    nutritionalValueName: "Wartość Energetyczna",
+                    nutritionalValueGroup: "Wartość Energetyczna",
+                    quantity: 97.0,
+                    unit: "kcal"
+                  },
+                  {
+                    nutritionalValueName: "Total",
+                    nutritionalValueGroup: "Tłuszcz",
+                    quantity: 3.0,
+                    unit: "g"
+                  },
+                  {
+                    nutritionalValueName: "Kwasy nasycone",
+                    nutritionalValueGroup: "Tłuszcz",
+                    quantity: 2.0,
+                    unit: "g"
+                  },
+                  {
+                    nutritionalValueName: "Total",
+                    nutritionalValueGroup: "Węglowodany",
+                    quantity: 2.3,
+                    unit: "g"
+                  },
+                  {
+                    nutritionalValueName: "Cukry",
+                    nutritionalValueGroup: "Węglowodany",
+                    quantity: 2.3,
+                    unit: "g"
+                  },
+                  {
+                    nutritionalValueName: "Białko",
+                    nutritionalValueGroup: "Białko",
+                    quantity: 15.0,
+                    unit: "g"
+                  },
+                  {
+                    nutritionalValueName: "Sól",
+                    nutritionalValueGroup: "Sól",
+                    quantity: 0.7,
+                    unit: "g"
+                  }
+                ],
+                EAN: "5900512988801"
+              },
+              {
+                  UUID: "0297c4e4-0b28-4b42-8143-d37bf3e4b425",
+                  productName: "Ser GOUDA bez laktozy MLEKOVITA",
+                  productDescription: "ser dojrzewający, plastry",
+                  productQuantity: 150,
+                  unit: "g",
+                  packageType: "tacka",
+                  country: "Polska",
+                  ingredients: [
+                    "kultury bakterii mlekowych",
+                    "mleko",
+                    "sól"
+                  ],
+                  additions: [],
+                  flavour: [],
+                  nutritionalIndexes: [
+                    {
+                      legend: "Wysoka zawartość wapnia",
+                      indexValue: 3
+                    },
+                    {
+                      legend: "Wysoka zawartość białka",
+                      indexValue: 3
+                    }
+                  ],
+                  productIndexes: [
+                    {
+                      indexName: "T",
+                      indexValue: 6
+                    },
+                    {
+                      indexName: "S",
+                      indexValue: 6
+                    },
+                    {
+                      indexName: "P",
+                      indexValue: 3
+                    },
+                    {
+                      indexName: "M",
+                      indexValue: 3
+                    }
+                  ],
+                  storage: "+2 C do +10 C",
+                  durability: "pakowany w atmosferze ochronnej",
+                  instructionsAfterOpening: "nie dłużej niż 3 dni",
+                  preparation: "Brak informacji",
+                  allergens: [
+                    "mleko"
+                  ],
+                  image: "https://mlekovita.com.pl/uploads/products/369/4562ser-goudai-plastry-bez-laktozy-150g-m2016-w03-0000-copy-jpg.jpg",
+                  portion: {
+                    unit: "g",
+                    portionQuantity: 100
+                  },
+                  ratings: [
+                    {
+                      groupName: "Zastosowane procesy technologiczne",
+                      name: "pasteryzowanie"
+                    },
+                    {
+                      groupName: "Parametry bez składników",
+                      name: "Bez laktozy"
+                    },
+                    {
+                      groupName: "Bez dodatków do żywności",
+                      name: "bez konserwantów"
+                    },
+                    {
+                      groupName: "Alergeny (może zawierać)",
+                      name: "mleko i produkty pochodne"
+                    }
+                  ],
+                  nutritionalValues: [
+                    {
+                      nutritionalValueName: "Wartość Energetyczna",
+                      nutritionalValueGroup: "Wartość Energetyczna",
+                      quantity: 334.0,
+                      unit: "kcal"
+                    },
+                    {
+                      nutritionalValueName: "Kwasy nasycone",
+                      nutritionalValueGroup: "Tłuszcz",
+                      quantity: 17.0,
+                      unit: "g"
+                    },
+                    {
+                      nutritionalValueName: "Białko",
+                      nutritionalValueGroup: "Białko",
+                      quantity: 25.0,
+                      unit: "g"
+                    },
+                    {
+                      nutritionalValueName: "Sól",
+                      nutritionalValueGroup: "Sól",
+                      quantity: 1.5,
+                      unit: "g"
+                    },
+                    {
+                      nutritionalValueName: "Wapń",
+                      nutritionalValueGroup: "Minerały",
+                      quantity: 800.0,
+                      unit: "mg"
+                    },
+                    {
+                      nutritionalValueName: "Total",
+                      nutritionalValueGroup: "Tłuszcz",
+                      quantity: 26.0,
+                      unit: "g"
+                    }
+                  ],
+                  EAN: "5900512999814"
+                },
+                {
+                    UUID: "927d0f18-7e48-4440-a4a7-ab7a3de8f5a1",
+                    productName: "Ser wysokobiałkowy SUPER BODY ACTIVE MLEKOVITA",
+                    productDescription: "ser wysokobiałkowy plastry",
+                    productQuantity: 140,
+                    unit: "g",
+                    packageType: "tacka z tworzywa sztucznego przykryta folią typu  otwórz/zamknij",
+                    country: "Polska",
+                    ingredients: [
+                      "mleko pasteryzowane",
+                      "kultury bakterii",
+                      "sól",
+                      "karoteny"
+                    ],
+                    additions: [],
+                    flavour: [],
+                    nutritionalIndexes: [
+                      {
+                        legend: "Wysoka zawartość wapnia",
+                        indexValue: 3
+                      },
+                      {
+                        legend: "Wysoka zawartość białka",
+                        indexValue: 3
+                      },
+                      {
+                        legend: "Niska zawartość tłuszczu",
+                        indexValue: 1
+                      }
+                    ],
+                    productIndexes: [
+                      {
+                        indexName: "T",
+                        indexValue: 6
+                      },
+                      {
+                        indexName: "P",
+                        indexValue: 3
+                      },
+                      {
+                        indexName: "S",
+                        indexValue: 7
+                      },
+                      {
+                        indexName: "M",
+                        indexValue: 3
+                      }
+                    ],
+                    storage: "w warunkach chłodniczych od +2 st. C do +10 st. C ",
+                    durability: "",
+                    instructionsAfterOpening: "przechowywać w temperaturze od +2 do +10C nie dłużej niż 3 dni",
+                    preparation: "Brak informacji",
+                    allergens: [
+                      "mleko"
+                    ],
+                    image: "https://mlekovita.com.pl/media/cache/product_view/uploads/products_specials/830/x8904sba-ser-wysokobialkowy-plastry-png.png.pagespeed.ic.HO23IwlSqf.png",
+                    portion: {
+                      unit: "g",
+                      portionQuantity: 100
+                    },
+                    ratings: [
+                      {
+                        groupName: "Zastosowane procesy technologiczne",
+                        name: "pasteryzowanie"
+                      },
+                      {
+                        groupName: "Bez dodatków do żywności",
+                        name: "bez konserwantów"
+                      },
+                      {
+                        groupName: "Alegreny (może zawierać)",
+                        name: "mleko i produkty pochodne"
+                      },
+                      {
+                        groupName: "Parametry bez składników",
+                        name: "Niska zawartość tłuszczu"
+                      }
+                    ],
+                    nutritionalValues: [
+                      {
+                        nutritionalValueName: "Wartość Energetyczna",
+                        nutritionalValueGroup: "Wartość Energetyczna",
+                        quantity: 168.0,
+                        unit: "kcal"
+                      },
+                      {
+                        nutritionalValueName: "Total",
+                        nutritionalValueGroup: "Tłuszcz",
+                        quantity: 2.8,
+                        unit: "g"
+                      },
+                      {
+                        nutritionalValueName: "Kwasy nasycone",
+                        nutritionalValueGroup: "Tłuszcz",
+                        quantity: 1.8,
+                        unit: "g"
+                      },
+                      {
+                        nutritionalValueName: "Białko",
+                        nutritionalValueGroup: "Białko",
+                        quantity: 36.0,
+                        unit: "g"
+                      },
+                      {
+                        nutritionalValueName: "Sól",
+                        nutritionalValueGroup: "Sól",
+                        quantity: 1.9,
+                        unit: "g"
+                      },
+                      {
+                        nutritionalValueName: "Wapń",
+                        nutritionalValueGroup: "Minerały",
+                        quantity: 1300.0,
+                        unit: "mg"
+                      }
+                    ],
+                    EAN: "5900512989839"
+                  },
+                
+];
 
 const ScannedProduct: React.FC<ScannedProductProps> = ({scanned}) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const product = products.find(p => p.EAN === scanned);
+  // const product = products.find(p => p.EAN === scanned);
+  const product = products[7];
 
   if (!product) {
     return (

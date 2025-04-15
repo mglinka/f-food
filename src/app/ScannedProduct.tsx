@@ -2831,8 +2831,8 @@ const products: Product[] = [{
 const ScannedProduct: React.FC<ScannedProductProps> = ({scanned}) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
-  // const product = products.find(p => p.EAN === scanned);
-  const product = products[7];
+  const product = products.find(p => p.EAN === scanned);
+  // const product = products[7];
 
   if (!product) {
     return (
